@@ -1,0 +1,723 @@
+name,market_type,sector,environment_score,social_score,governance_score,total_esg_score,grade_impact,sector_avg_diff,risk_level,performance_level
+Walt Disney Co,NYSE,Media,510,316,321,1147,BBB – High,211.7,Low Risk,Excellent
+General Motors Co,NYSE,Automobiles,510,303,255,1068,BBB – High,208.8,Medium Risk,Good
+WW Grainger Inc,NYSE,Trading Companies and Distributors,255,385,240,880,BB – Medium,-5.2,Medium Risk,Average
+Mohawk Industries Inc,NYSE,Consumer products,570,298,303,1171,BBB – High,225.5,Low Risk,Excellent
+Live Nation Entertainment Inc,NYSE,Media,492,310,250,1052,BBB – High,116.7,Medium Risk,Good
+Las Vegas Sands Corp,NYSE,Hotels Restaurants and Leisure,547,318,313,1178,BBB – High,259.1,Low Risk,Excellent
+Clorox Co,NYSE,Consumer products,560,350,345,1255,A – High,309.5,Low Risk,Excellent
+ATA Creativity Global,NASDAQ,Diversified Consumer Services,203,200,205,608,B – Medium,-131.3,High Risk,Poor
+American Airlines Group Inc,NASDAQ,Airlines,270,211,265,746,B – Medium,-92.7,High Risk,Poor
+Atlantic American Corp,NASDAQ,Insurance,220,221,300,741,B – Medium,-271.4,High Risk,Poor
+Applied Optoelectronics Inc,NASDAQ,Communications,311,256,218,785,BB – Medium,-153.2,Medium Risk,Average
+Aaon Inc,NASDAQ,Building,500,300,223,1023,BBB – High,-51.2,Medium Risk,Average
+Apple Inc,NASDAQ,Technology,355,281,255,891,BB – Medium,-140.3,Medium Risk,Average
+Autoscope Technologies Corp,NASDAQ,Electrical Equipment,410,286,240,936,BBB – High,3.0,Medium Risk,Average
+Atlas Air Worldwide Holdings Inc,NASDAQ,Logistics and Transportation,520,243,237,1000,BBB – High,-25.2,Medium Risk,Average
+Armada Acquisition Corp I,NASDAQ,Unknown,205,200,200,605,B – Medium,,High Risk,Poor
+Aadi Bioscience Inc,NASDAQ,Biotechnology,200,201,203,604,B – Medium,-262.9,High Risk,Poor
+Abeona Therapeutics Inc,NASDAQ,Biotechnology,205,306,310,821,BB – Medium,-45.9,Medium Risk,Average
+Airbnb Inc,NASDAQ,Hotels Restaurants and Leisure,505,570,400,1475,A – High,556.1,Low Risk,Excellent
+ARCA Biopharma Inc,NASDAQ,Biotechnology,200,222,290,712,B – Medium,-154.9,High Risk,Poor
+ABIOMED Inc,NASDAQ,Health Care,500,324,305,1129,BBB – High,190.2,Low Risk,Good
+Acumen Pharmaceuticals Inc,NASDAQ,Biotechnology,205,201,200,606,B – Medium,-260.9,High Risk,Poor
+Absci Corp,NASDAQ,Life Sciences Tools and Services,205,224,230,659,B – Medium,-334.1,High Risk,Poor
+Allegiance Bancshares Inc,NASDAQ,Banking,298,300,300,898,BB – Medium,-0.3,Medium Risk,Average
+Arbutus Biopharma Corp,NASDAQ,Biotechnology,203,204,338,745,B – Medium,-121.9,High Risk,Poor
+ABVC Biopharma Inc,NASDAQ,Biotechnology,220,212,205,637,B – Medium,-229.9,High Risk,Poor
+ACADIA Pharmaceuticals Inc,NASDAQ,Biotechnology,230,230,305,765,BB – Medium,-101.9,Medium Risk,Average
+Acri Capital Acquisition Corp,NASDAQ,Unknown,200,205,300,705,B – Medium,,High Risk,Poor
+Accolade Inc,NASDAQ,Health Care,255,254,235,744,B – Medium,-194.8,High Risk,Poor
+Adicet Bio Inc,NASDAQ,Biotechnology,215,211,305,731,B – Medium,-135.9,High Risk,Poor
+Abcellera Biologics Inc,NASDAQ,Life Sciences Tools and Services,540,354,345,1239,A – High,245.9,Low Risk,Excellent
+Ameris Bancorp,NASDAQ,Banking,290,300,250,840,BB – Medium,-58.3,Medium Risk,Average
+ACE Convergence Acquisition Corp,NASDAQ,Unknown,225,211,215,651,B – Medium,,High Risk,Poor
+Achilles Therapeutics PLC,NASDAQ,Biotechnology,230,288,285,803,BB – Medium,-63.9,Medium Risk,Average
+Acadia Healthcare Company Inc,NASDAQ,Health Care,330,231,220,781,BB – Medium,-157.8,Medium Risk,Average
+ACI Worldwide Inc,NASDAQ,Technology,500,327,300,1127,BBB – High,95.7,Low Risk,Good
+Axcelis Technologies Inc,NASDAQ,Semiconductors,515,306,260,1081,BBB – High,50.4,Medium Risk,Good
+AC Immune SA,NASDAQ,Biotechnology,250,296,305,851,BB – Medium,-15.9,Medium Risk,Average
+Achieve Life Sciences Inc,NASDAQ,Biotechnology,215,222,305,742,B – Medium,-124.9,High Risk,Poor
+ACM Research Inc,NASDAQ,Semiconductors,410,232,325,967,BBB – High,-63.6,Medium Risk,Average
+Acorda Therapeutics Inc,NASDAQ,Biotechnology,230,307,310,847,BB – Medium,-19.9,Medium Risk,Average
+ACNB Corp,NASDAQ,Banking,220,219,215,654,B – Medium,-244.3,High Risk,Poor
+Aclaris Therapeutics Inc,NASDAQ,Pharmaceuticals,230,207,220,657,B – Medium,-246.7,High Risk,Poor
+AcelRx Pharmaceuticals Inc,NASDAQ,Pharmaceuticals,200,237,300,737,B – Medium,-166.7,High Risk,Poor
+Enact Holdings Inc,NASDAQ,Financial Services,540,328,315,1183,BBB – High,273.7,Low Risk,Excellent
+Acacia Research Corp,NASDAQ,Financial Services,200,200,275,675,B – Medium,-234.3,High Risk,Poor
+ACV Auctions Inc,NASDAQ,Commercial Services and Supplies,235,262,315,812,BB – Medium,-183.9,Medium Risk,Average
+Adagene Inc,NASDAQ,Biotechnology,295,301,305,901,BBB – High,34.1,Medium Risk,Average
+Acurx Pharmaceuticals Inc,NASDAQ,Biotechnology,235,301,305,841,BB – Medium,-25.9,Medium Risk,Average
+Adobe Inc,NASDAQ,Technology,200,221,200,621,B – Medium,-410.3,High Risk,Poor
+Adaptimmune Therapeutics PLC,NASDAQ,Biotechnology,365,283,305,953,BBB – High,86.1,Medium Risk,Average
+ADMA Biologics Inc,NASDAQ,Biotechnology,240,264,320,824,BB – Medium,-42.9,Medium Risk,Average
+Advanced Emissions Solutions Inc,NASDAQ,Chemicals,205,201,300,706,B – Medium,-352.9,High Risk,Poor
+Analog Devices Inc,NASDAQ,Semiconductors,350,318,300,968,BBB – High,-62.6,Medium Risk,Average
+Adial Pharmaceuticals Inc,NASDAQ,Pharmaceuticals,200,203,300,703,B – Medium,-200.7,High Risk,Poor
+Adamis Pharmaceuticals Corp,NASDAQ,Pharmaceuticals,285,204,215,704,B – Medium,-199.7,High Risk,Poor
+Acer Therapeutics Inc,NASDAQ,Pharmaceuticals,223,291,310,824,BB – Medium,-79.7,Medium Risk,Average
+Edoc Acquisition Corp,NASDAQ,Unknown,215,301,300,816,BB – Medium,,Medium Risk,Average
+Addus Homecare Corp,NASDAQ,Health Care,210,215,218,643,B – Medium,-295.8,High Risk,Poor
+Arch Capital Group Ltd,NASDAQ,Insurance,500,300,300,1100,BBB – High,87.6,Low Risk,Good
+Adaptive Biotechnologies Corp,NASDAQ,Life Sciences Tools and Services,260,348,260,868,BB – Medium,-125.1,Medium Risk,Average
+Autodesk Inc,NASDAQ,Technology,555,304,310,1169,BBB – High,137.7,Low Risk,Excellent
+Automatic Data Processing Inc,NASDAQ,Technology,500,300,200,1000,BBB – High,-31.3,Medium Risk,Average
+Aditxt Inc,NASDAQ,Biotechnology,210,224,305,739,B – Medium,-127.9,High Risk,Poor
+Advantage Solutions Inc,NASDAQ,Media,515,269,328,1112,BBB – High,176.7,Low Risk,Good
+Adverum Biotechnologies Inc,NASDAQ,Biotechnology,262,321,235,818,BB – Medium,-48.9,Medium Risk,Average
+Aehr Test Systems,NASDAQ,Semiconductors,290,262,300,852,BB – Medium,-178.6,Medium Risk,Average
+Antelope Enterprise Holdings Ltd,NASDAQ,Building,238,237,325,800,BB – Medium,-274.2,Medium Risk,Average
+Alset Ehome International Inc,NASDAQ,Real Estate,520,207,210,937,BBB – High,-58.9,Medium Risk,Average
+Advanced Energy Industries Inc,NASDAQ,Electrical Equipment,500,300,300,1100,BBB – High,167.0,Low Risk,Good
+American Electric Power Company Inc,NASDAQ,Utilities,500,300,300,1100,BBB – High,-90.6,Low Risk,Good
+Aethlon Medical Inc,NASDAQ,Health Care,200,262,315,777,BB – Medium,-161.8,Medium Risk,Average
+Allied Esports Entertainment Inc,NASDAQ,Hotels Restaurants and Leisure,200,200,200,600,B – Medium,-318.9,High Risk,Poor
+AudioEye Inc,NASDAQ,Technology,235,301,308,844,BB – Medium,-187.3,Medium Risk,Average
+Aerie Pharmaceuticals Inc,NASDAQ,Pharmaceuticals,500,264,310,1074,BBB – High,170.3,Medium Risk,Good
+ADDvantage Technologies Group Inc,NASDAQ,Electrical Equipment,235,234,300,769,BB – Medium,-164.0,Medium Risk,Average
+AF Acquisition Corp,NASDAQ,Unknown,200,200,200,600,B – Medium,,High Risk,Poor
+Affimed NV,NASDAQ,Biotechnology,368,304,310,982,BBB – High,115.1,Medium Risk,Average
+AFC Gamma Inc,NASDAQ,Real Estate,255,204,226,685,B – Medium,-310.9,High Risk,Poor
+Affinity Bancshares Inc,NASDAQ,Banking,200,207,200,607,B – Medium,-291.3,High Risk,Poor
+Affirm Holdings Inc,NASDAQ,Technology,225,335,335,895,BB – Medium,-136.3,Medium Risk,Average
+Acutus Medical Inc,NASDAQ,Health Care,205,211,235,651,B – Medium,-287.8,High Risk,Poor
+Agenus Inc,NASDAQ,Biotechnology,290,245,300,835,BB – Medium,-31.9,Medium Risk,Average
+Afya Ltd,NASDAQ,Diversified Consumer Services,290,203,205,698,B – Medium,-41.3,High Risk,Poor
+AgroFresh Solutions Inc,NASDAQ,Chemicals,500,301,275,1076,BBB – High,17.1,Medium Risk,Good
+Agrify Corp,NASDAQ,Machinery,540,361,305,1206,A – High,158.0,Low Risk,Excellent
+AgileThought Inc,NASDAQ,Technology,340,299,305,944,BBB – High,-87.3,Medium Risk,Average
+AGM Group Holdings Inc,NASDAQ,Financial Services,205,204,210,619,B – Medium,-290.3,High Risk,Poor
+Agios Pharmaceuticals Inc,NASDAQ,Biotechnology,520,303,325,1148,BBB – High,281.1,Low Risk,Excellent
+Aeglea Bio Therapeutics Inc,NASDAQ,Biotechnology,205,223,200,628,B – Medium,-238.9,High Risk,Poor
+AGNC Investment Corp,NASDAQ,Real Estate,382,242,305,929,BBB – High,-66.9,Medium Risk,Average
+AgriFORCE Growing Systems Ltd,NASDAQ,Food Products,510,248,305,1063,BBB – High,-68.1,Medium Risk,Good
+Agile Therapeutics Inc,NASDAQ,Pharmaceuticals,240,203,260,703,B – Medium,-200.7,High Risk,Poor
+Agilysys Inc,NASDAQ,Technology,500,303,300,1103,BBB – High,71.7,Low Risk,Good
+Applied Genetic Technologies Corp,NASDAQ,Biotechnology,235,323,305,863,BB – Medium,-3.9,Medium Risk,Average
+Adapthealth Corp,NASDAQ,Health Care,210,211,235,656,B – Medium,-282.8,High Risk,Poor
+Allied Healthcare Products Inc,NASDAQ,Health Care,210,228,325,763,BB – Medium,-175.8,Medium Risk,Average
+AIB Acquisition Corp,NASDAQ,Unknown,215,227,300,742,B – Medium,,High Risk,Poor
+ADTRAN Inc,NASDAQ,Communications,510,308,300,1118,BBB – High,179.8,Low Risk,Good
+Advent Technologies Holdings Inc,NASDAQ,Electrical Equipment,250,203,220,673,B – Medium,-260.0,High Risk,Poor
+Aikido Pharma Inc,NASDAQ,Biotechnology,200,235,205,640,B – Medium,-226.9,High Risk,Poor
+Sports Ventures Acquisition Corp,NASDAQ,Unknown,200,205,230,635,B – Medium,,High Risk,Poor
+Arteris Inc,NASDAQ,Technology,500,286,300,1086,BBB – High,54.7,Medium Risk,Good
+Akero Therapeutics Inc,NASDAQ,Biotechnology,250,246,305,801,BB – Medium,-65.9,Medium Risk,Average
+Air T Inc,NASDAQ,Logistics and Transportation,234,210,325,769,BB – Medium,-256.2,Medium Risk,Average
+Altra Industrial Motion Corp,NASDAQ,Machinery,525,315,305,1145,BBB – High,97.0,Low Risk,Excellent
+Akebia Therapeutics Inc,NASDAQ,Biotechnology,200,218,215,633,B – Medium,-233.9,High Risk,Poor
+Airgain Inc,NASDAQ,Electrical Equipment,500,300,330,1130,BBB – High,197.0,Low Risk,Good
+Airsculpt Technologies Inc,NASDAQ,Health Care,210,201,205,616,B – Medium,-322.8,High Risk,Poor
+Akamai Technologies Inc,NASDAQ,Technology,515,341,305,1161,BBB – High,129.7,Low Risk,Excellent
+Akumin Inc,NASDAQ,Health Care,455,347,300,1102,BBB – High,163.2,Low Risk,Good
+Akouos Inc,NASDAQ,Biotechnology,205,221,295,721,B – Medium,-145.9,High Risk,Poor
+Akoustis Technologies Inc,NASDAQ,Electrical Equipment,222,302,428,952,BBB – High,19.0,Medium Risk,Average
+Akari Therapeutics PLC,NASDAQ,Pharmaceuticals,225,216,305,746,B – Medium,-157.7,High Risk,Poor
+Albireo Pharma Inc,NASDAQ,Biotechnology,500,300,310,1110,BBB – High,243.1,Low Risk,Good
+Akoya Biosciences Inc,NASDAQ,Life Sciences Tools and Services,512,303,215,1030,BBB – High,36.9,Medium Risk,Average
+Alico Inc,NASDAQ,Food Products,500,300,300,1100,BBB – High,-31.1,Low Risk,Good
+Aldeyra Therapeutics Inc,NASDAQ,Biotechnology,231,261,235,727,B – Medium,-139.9,High Risk,Poor
+Alector Inc,NASDAQ,Biotechnology,240,277,300,817,BB – Medium,-49.9,Medium Risk,Average
+Allegro Microsystems Inc,NASDAQ,Semiconductors,542,314,250,1106,BBB – High,75.4,Low Risk,Good
+Alfi Inc,NASDAQ,Technology,225,260,315,800,BB – Medium,-231.3,Medium Risk,Average
+Align Technology Inc,NASDAQ,Health Care,235,285,255,775,BB – Medium,-163.8,Medium Risk,Average
+Aligos Therapeutics Inc,NASDAQ,Biotechnology,210,222,235,667,B – Medium,-199.9,High Risk,Poor
+Alignment Healthcare LLC,NASDAQ,Unknown,210,302,256,768,BB – Medium,,Medium Risk,Average
+Alkermes Plc,NASDAQ,Biotechnology,415,302,333,1050,BBB – High,183.1,Medium Risk,Good
+Alimera Sciences Inc,NASDAQ,Pharmaceuticals,220,228,243,691,B – Medium,-212.7,High Risk,Poor
+Allegiant Travel Co,NASDAQ,Airlines,287,208,248,743,B – Medium,-95.7,High Risk,Poor
+Aesthetic Medical International Holdings Group Ltd,NASDAQ,Health Care,220,250,300,770,BB – Medium,-168.8,Medium Risk,Average
+Alkami Technology Inc,NASDAQ,Technology,280,305,260,845,BB – Medium,-186.3,Medium Risk,Average
+Alnylam Pharmaceuticals Inc,NASDAQ,Biotechnology,331,346,325,1002,BBB – High,135.1,Medium Risk,Average
+Allot Ltd,NASDAQ,Technology,508,324,310,1142,BBB – High,110.7,Low Risk,Good
+Allogene Therapeutics Inc,NASDAQ,Biotechnology,535,324,305,1164,BBB – High,297.1,Low Risk,Excellent
+Applied Materials Inc,NASDAQ,Semiconductors,525,317,300,1142,BBB – High,111.4,Low Risk,Good
+Advanced Micro Devices Inc,NASDAQ,Semiconductors,200,208,200,608,B – Medium,-422.6,High Risk,Poor
+Activision Blizzard Inc,NASDAQ,Media,280,347,330,957,BBB – High,21.7,Medium Risk,Average
+Broadcom Inc,NASDAQ,Semiconductors,210,212,200,622,B – Medium,-408.6,High Risk,Poor
+ANSYS Inc,NASDAQ,Technology,580,337,285,1202,A – High,170.7,Low Risk,Excellent
+Amazon.com Inc,NASDAQ,Retail,668,305,460,1433,A – High,514.4,Low Risk,Excellent
+Senmiao Technology Ltd,NASDAQ,Financial Services,220,203,200,623,B – Medium,-286.3,High Risk,Poor
+APA Corp (US),NASDAQ,Energy,510,316,325,1151,BBB – High,8.7,Low Risk,Excellent
+Biogen Inc,NASDAQ,Biotechnology,380,303,364,1047,BBB – High,180.1,Medium Risk,Good
+Booking Holdings Inc,NASDAQ,Hotels Restaurants and Leisure,558,306,310,1174,BBB – High,255.1,Low Risk,Excellent
+Cadence Design Systems Inc,NASDAQ,Technology,500,308,295,1103,BBB – High,71.7,Low Risk,Good
+CDW Corp,NASDAQ,Electrical Equipment,225,209,200,634,B – Medium,-299.0,High Risk,Poor
+CH Robinson Worldwide Inc,NASDAQ,Logistics and Transportation,575,330,338,1243,A – High,217.8,Low Risk,Excellent
+Cincinnati Financial Corp,NASDAQ,Insurance,235,275,250,760,BB – Medium,-252.4,Medium Risk,Poor
+Charter Communications Inc,NASDAQ,Media,500,300,300,1100,BBB – High,164.7,Low Risk,Good
+Comcast Corp,NASDAQ,Media,507,343,315,1165,BBB – High,229.7,Low Risk,Excellent
+Copart Inc,NASDAQ,Commercial Services and Supplies,270,204,205,679,B – Medium,-316.9,High Risk,Poor
+Costco Wholesale Corp,NASDAQ,Retail,537,306,225,1068,BBB – High,149.4,Medium Risk,Good
+CSX Corp,NASDAQ,Road and Rail,510,310,325,1145,BBB – High,68.7,Low Risk,Excellent
+Cognizant Technology Solutions Corp,NASDAQ,Technology,605,365,300,1270,A – High,238.7,Low Risk,Excellent
+CME Group Inc,NASDAQ,Financial Services,375,237,200,812,BB – Medium,-97.3,Medium Risk,Average
+Cisco Systems Inc,NASDAQ,Communications,280,234,220,734,B – Medium,-204.2,High Risk,Poor
+Cintas Corp,NASDAQ,Commercial Services and Supplies,500,300,300,1100,BBB – High,104.1,Low Risk,Good
+Citrix Systems Inc,NASDAQ,Technology,530,305,305,1140,BBB – High,108.7,Low Risk,Good
+Caesars Entertainment Inc,NASDAQ,Hotels Restaurants and Leisure,265,228,200,693,B – Medium,-225.9,High Risk,Poor
+DISH Network Corp,NASDAQ,Media,210,263,205,678,B – Medium,-257.3,High Risk,Poor
+Dollar Tree Inc,NASDAQ,Retail,235,208,215,658,B – Medium,-260.6,High Risk,Poor
+Dexcom Inc,NASDAQ,Health Care,215,236,215,666,B – Medium,-272.8,High Risk,Poor
+Electronic Arts Inc,NASDAQ,Media,360,300,225,885,BB – Medium,-50.3,Medium Risk,Average
+Alliant Energy Corp,NASDAQ,Utilities,519,307,300,1126,BBB – High,-64.6,Low Risk,Good
+Diamondback Energy Inc,NASDAQ,Energy,513,271,300,1084,BBB – High,-58.3,Medium Risk,Good
+eBay Inc,NASDAQ,Retail,500,302,305,1107,BBB – High,188.4,Low Risk,Good
+LKQ Corp,NASDAQ,Distributors,515,300,305,1120,BBB – High,10.3,Low Risk,Good
+Alphabet Inc,NASDAQ,Media,295,362,355,1012,BBB – High,76.7,Medium Risk,Average
+Marriott International Inc,NASDAQ,Hotels Restaurants and Leisure,215,200,215,630,B – Medium,-288.9,High Risk,Poor
+Microchip Technology Inc,NASDAQ,Semiconductors,500,300,300,1100,BBB – High,69.4,Low Risk,Good
+Lam Research Corp,NASDAQ,Semiconductors,510,325,315,1150,BBB – High,119.4,Low Risk,Excellent
+Mondelez International Inc,NASDAQ,Food Products,520,307,300,1127,BBB – High,-4.1,Low Risk,Good
+Meta Platforms Inc,NASDAQ,Media,205,232,215,652,B – Medium,-283.3,High Risk,Poor
+Marketaxess Holdings Inc,NASDAQ,Financial Services,230,213,210,653,B – Medium,-256.3,High Risk,Poor
+Monster Beverage Corp,NASDAQ,Beverages,515,344,300,1159,BBB – High,98.0,Low Risk,Excellent
+Moderna Inc,NASDAQ,Biotechnology,500,300,300,1100,BBB – High,233.1,Low Risk,Good
+Match Group Inc,NASDAQ,Media,245,389,311,945,BBB – High,9.7,Medium Risk,Average
+Monolithic Power Systems Inc,NASDAQ,Semiconductors,330,287,235,852,BB – Medium,-178.6,Medium Risk,Average
+Microsoft Corp,NASDAQ,Technology,715,443,375,1533,A – High,501.7,Low Risk,Excellent
+Micron Technology Inc,NASDAQ,Semiconductors,530,330,300,1160,BBB – High,129.4,Low Risk,Excellent
+Nasdaq Inc,NASDAQ,Financial Services,505,310,300,1115,BBB – High,205.7,Low Risk,Good
+NortonLifeLock Inc,NASDAQ,Technology,505,315,305,1125,BBB – High,93.7,Low Risk,Good
+Northern Trust Corp,NASDAQ,Financial Services,250,226,225,701,B – Medium,-208.3,High Risk,Poor
+Newell Brands Inc,NASDAQ,Consumer products,525,303,315,1143,BBB – High,197.5,Low Risk,Good
+NVIDIA Corp,NASDAQ,Semiconductors,323,301,275,899,BB – Medium,-131.6,Medium Risk,Average
+Allakos Inc,NASDAQ,Biotechnology,200,273,300,773,BB – Medium,-93.9,Medium Risk,Average
+News Corp,NASDAQ,Media,509,300,300,1109,BBB – High,173.7,Low Risk,Good
+Old Dominion Freight Line Inc,NASDAQ,Road and Rail,467,423,280,1170,BBB – High,93.7,Low Risk,Excellent
+Paccar Inc,NASDAQ,Machinery,568,343,305,1216,A – High,168.0,Low Risk,Excellent
+NXP Semiconductors NV,NASDAQ,Semiconductors,505,329,305,1139,BBB – High,108.4,Low Risk,Good
+O'Reilly Automotive Inc,NASDAQ,Retail,500,300,300,1100,BBB – High,181.4,Low Risk,Good
+Paychex Inc,NASDAQ,Technology,500,300,200,1000,BBB – High,-31.3,Medium Risk,Average
+Principal Financial Group Inc,NASDAQ,Insurance,555,320,300,1175,BBB – High,162.6,Low Risk,Excellent
+Ross Stores Inc,NASDAQ,Retail,375,325,300,1000,BBB – High,81.4,Medium Risk,Average
+SBA Communications Corp,NASDAQ,Real Estate,250,251,215,716,B – Medium,-279.9,High Risk,Poor
+Qualcomm Inc,NASDAQ,Semiconductors,409,300,300,1009,BBB – High,-21.6,Medium Risk,Average
+Pool Corp,NASDAQ,Distributors,525,306,313,1144,BBB – High,34.3,Low Risk,Excellent
+PepsiCo Inc,NASDAQ,Beverages,719,340,358,1417,A – High,356.0,Low Risk,Excellent
+Starbucks Corp,NASDAQ,Hotels Restaurants and Leisure,475,385,295,1155,BBB – High,236.1,Low Risk,Excellent
+Regency Centers Corp,NASDAQ,Real Estate,575,372,365,1312,A – High,316.1,Low Risk,Excellent
+Qorvo Inc,NASDAQ,Semiconductors,535,310,305,1150,BBB – High,119.4,Low Risk,Excellent
+PTC Inc,NASDAQ,Technology,550,302,308,1160,BBB – High,128.7,Low Risk,Excellent
+PENN Entertainment Inc,NASDAQ,Hotels Restaurants and Leisure,371,300,220,891,BB – Medium,-27.9,Medium Risk,Average
+PayPal Holdings Inc,NASDAQ,Technology,370,244,285,899,BB – Medium,-132.3,Medium Risk,Average
+Regeneron Pharmaceuticals Inc,NASDAQ,Biotechnology,505,327,305,1137,BBB – High,270.1,Low Risk,Good
+Amgen Inc,NASDAQ,Biotechnology,575,312,328,1215,A – High,348.1,Low Risk,Excellent
+Synopsys Inc,NASDAQ,Technology,525,316,315,1156,BBB – High,124.7,Low Risk,Excellent
+Seagate Technology Holdings PLC,NASDAQ,Technology,540,355,300,1195,BBB – High,163.7,Low Risk,Excellent
+Bio-Techne Corp,NASDAQ,Life Sciences Tools and Services,510,268,300,1078,BBB – High,84.9,Medium Risk,Good
+Teradyne Inc,NASDAQ,Semiconductors,507,328,315,1150,BBB – High,119.4,Low Risk,Excellent
+Skyworks Solutions Inc,NASDAQ,Semiconductors,515,303,270,1088,BBB – High,57.4,Medium Risk,Good
+Trimble Inc,NASDAQ,Electrical Equipment,550,415,315,1280,A – High,347.0,Low Risk,Excellent
+T Rowe Price Group Inc,NASDAQ,Financial Services,510,325,310,1145,BBB – High,235.7,Low Risk,Excellent
+Take-Two Interactive Software Inc,NASDAQ,Media,225,307,310,842,BB – Medium,-93.3,Medium Risk,Average
+Tesla Inc,NASDAQ,Automobiles,555,160,278,993,BBB – High,133.8,Medium Risk,Average
+Tractor Supply Co,NASDAQ,Retail,500,300,200,1000,BBB – High,81.4,Medium Risk,Average
+Texas Instruments Inc,NASDAQ,Semiconductors,500,300,300,1100,BBB – High,69.4,Low Risk,Good
+T-Mobile US Inc,NASDAQ,Telecommunication,342,331,230,903,BBB – High,-25.3,Medium Risk,Average
+United Airlines Holdings Inc,NASDAQ,Airlines,205,203,221,629,B – Medium,-209.7,High Risk,Poor
+Verisk Analytics Inc,NASDAQ,Professional Services,615,366,300,1281,A – High,233.1,Low Risk,Excellent
+Ulta Beauty Inc,NASDAQ,Retail,205,242,200,647,B – Medium,-271.6,High Risk,Poor
+Vertex Pharmaceuticals Inc,NASDAQ,Biotechnology,500,300,300,1100,BBB – High,233.1,Low Risk,Good
+Viatris Inc,NASDAQ,Pharmaceuticals,500,300,200,1000,BBB – High,96.3,Medium Risk,Average
+Verisign Inc,NASDAQ,Technology,548,354,325,1227,A – High,195.7,Low Risk,Excellent
+Walgreens Boots Alliance Inc,NASDAQ,Retail,515,325,300,1140,BBB – High,221.4,Low Risk,Good
+NetApp Inc,NASDAQ,Technology,545,359,325,1229,A – High,197.7,Low Risk,Excellent
+Xcel Energy Inc,NASDAQ,Utilities,223,201,205,629,B – Medium,-561.6,High Risk,Poor
+DENTSPLY SIRONA Inc,NASDAQ,Health Care,530,318,305,1153,BBB – High,214.2,Low Risk,Excellent
+Zebra Technologies Corp,NASDAQ,Electrical Equipment,320,317,300,937,BBB – High,4.0,Medium Risk,Average
+Advance Auto Parts Inc,NYSE,Retail,264,261,210,735,B – Medium,-183.6,High Risk,Poor
+Zions Bancorporation NA,NASDAQ,Banking,200,200,200,600,B – Medium,-298.3,High Risk,Poor
+Wynn Resorts Ltd,NASDAQ,Hotels Restaurants and Leisure,225,201,200,626,B – Medium,-292.9,High Risk,Poor
+Agilent Technologies Inc,NYSE,Life Sciences Tools and Services,573,231,233,1037,BBB – High,43.9,Medium Risk,Average
+Abbvie Inc,NYSE,Biotechnology,505,317,300,1122,BBB – High,255.1,Low Risk,Good
+Amerisourcebergen Corp,NYSE,Health Care,505,300,315,1120,BBB – High,181.2,Low Risk,Good
+Archer-Daniels-Midland Co,NYSE,Food Products,587,353,305,1245,A – High,113.9,Low Risk,Excellent
+Abbott Laboratories,NYSE,Health Care,515,305,305,1125,BBB – High,186.2,Low Risk,Good
+Ameren Corp,NYSE,Utilities,562,345,300,1207,A – High,16.4,Low Risk,Excellent
+AES Corp,NYSE,Utilities,525,326,370,1221,A – High,30.4,Low Risk,Excellent
+Aflac Inc,NYSE,Insurance,454,300,235,989,BBB – High,-23.4,Medium Risk,Average
+Accenture PLC,NYSE,Technology,515,360,305,1180,BBB – High,148.7,Low Risk,Excellent
+Arthur J. Gallagher & Co.,NYSE,Insurance,530,344,310,1184,BBB – High,171.6,Low Risk,Excellent
+Assurant Inc,NYSE,Insurance,438,316,300,1054,BBB – High,41.6,Medium Risk,Good
+Alaska Air Group Inc,NYSE,Airlines,515,303,259,1077,BBB – High,238.3,Medium Risk,Good
+Albemarle Corp,NYSE,Chemicals,545,322,315,1182,BBB – High,123.1,Low Risk,Excellent
+American International Group Inc,NYSE,Insurance,518,323,310,1151,BBB – High,138.6,Low Risk,Excellent
+Allstate Corp,NYSE,Insurance,530,300,220,1050,BBB – High,37.6,Medium Risk,Good
+Allegion PLC,NYSE,Building,542,322,315,1179,BBB – High,104.8,Low Risk,Excellent
+Ameriprise Financial Inc,NYSE,Financial Services,396,308,267,971,BBB – High,61.7,Medium Risk,Average
+AMETEK Inc,NYSE,Electrical Equipment,540,329,270,1139,BBB – High,206.0,Low Risk,Good
+American Tower Corp,NYSE,Real Estate,530,333,305,1168,BBB – High,172.1,Low Risk,Excellent
+A O Smith Corp,NYSE,Building,510,315,310,1135,BBB – High,60.8,Low Risk,Good
+Air Products and Chemicals Inc,NYSE,Chemicals,700,442,300,1442,A – High,383.1,Low Risk,Excellent
+Aon PLC,NYSE,Insurance,485,304,288,1077,BBB – High,64.6,Medium Risk,Good
+Arista Networks Inc,NYSE,Communications,444,310,295,1049,BBB – High,110.8,Medium Risk,Good
+Amphenol Corp,NYSE,Electrical Equipment,512,303,475,1290,A – High,357.0,Low Risk,Excellent
+Atmos Energy Corp,NYSE,Utilities,572,368,315,1255,A – High,64.4,Low Risk,Excellent
+American Water Works Company Inc,NYSE,Utilities,653,395,300,1348,A – High,157.4,Low Risk,Excellent
+Alexandria Real Estate Equities Inc,NYSE,Real Estate,600,337,345,1282,A – High,286.1,Low Risk,Excellent
+Aptiv PLC,NYSE,Auto Components,555,339,310,1204,A – High,370.7,Low Risk,Excellent
+Avalonbay Communities Inc,NYSE,Real Estate,500,300,298,1098,BBB – High,102.1,Medium Risk,Good
+Avery Dennison Corp,NYSE,Packaging,535,347,325,1207,A – High,51.0,Low Risk,Excellent
+Boeing Co,NYSE,Aerospace and Defense,220,224,235,679,B – Medium,-410.7,High Risk,Poor
+Bank of America Corp,NYSE,Banking,220,394,265,879,BB – Medium,-19.3,Medium Risk,Average
+Baxter International Inc,NYSE,Health Care,500,316,300,1116,BBB – High,177.2,Low Risk,Good
+Bath & Body Works Inc,NYSE,Retail,525,303,300,1128,BBB – High,209.4,Low Risk,Good
+Becton Dickinson and Co,NYSE,Health Care,607,384,315,1306,A – High,367.2,Low Risk,Excellent
+Bio Rad Laboratories Inc,NYSE,Life Sciences Tools and Services,275,227,300,802,BB – Medium,-191.1,Medium Risk,Average
+Best Buy Co Inc,NYSE,Retail,430,231,300,961,BBB – High,42.4,Medium Risk,Average
+Bank of New York Mellon Corp,NYSE,Financial Services,500,300,300,1100,BBB – High,190.7,Low Risk,Good
+American Express Co,NYSE,Financial Services,230,226,208,664,B – Medium,-245.3,High Risk,Poor
+Broadridge Financial Solutions Inc,NYSE,Technology,550,313,325,1188,BBB – High,156.7,Low Risk,Excellent
+Bristol-Myers Squibb Co,NYSE,Pharmaceuticals,500,321,310,1131,BBB – High,227.3,Low Risk,Good
+Brown & Brown Inc,NYSE,Insurance,405,320,300,1025,BBB – High,12.6,Medium Risk,Average
+Autozone Inc,NYSE,Retail,260,222,213,695,B – Medium,-223.6,High Risk,Poor
+Boston Scientific Corp,NYSE,Health Care,525,399,300,1224,A – High,285.2,Low Risk,Excellent
+Blackstone Inc,NYSE,Financial Services,534,343,320,1197,BBB – High,287.7,Low Risk,Excellent
+Boston Properties Inc,NYSE,Real Estate,532,339,305,1176,BBB – High,180.1,Low Risk,Excellent
+SVB Financial Group,NASDAQ,Banking,510,340,300,1150,BBB – High,251.7,Low Risk,Excellent
+Citigroup Inc,NYSE,Banking,515,300,303,1118,BBB – High,219.7,Low Risk,Good
+Caterpillar Inc,NYSE,Machinery,235,239,235,709,B – Medium,-339.0,High Risk,Poor
+Carrier Global Corp,NYSE,Building,210,258,226,694,B – Medium,-380.2,High Risk,Poor
+CBRE Group Inc,NYSE,Real Estate,200,209,200,609,B – Medium,-386.9,High Risk,Poor
+Crown Castle Inc,NYSE,Real Estate,500,300,200,1000,BBB – High,4.1,Medium Risk,Average
+Ceridian HCM Holding Inc,NYSE,Technology,530,379,320,1229,A – High,197.7,Low Risk,Excellent
+Comerica Inc,NYSE,Banking,280,300,230,810,BB – Medium,-88.3,Medium Risk,Average
+D R Horton Inc,NYSE,Consumer products,250,271,205,726,B – Medium,-219.5,High Risk,Poor
+Dover Corp,NYSE,Machinery,500,320,305,1125,BBB – High,77.0,Low Risk,Good
+Darden Restaurants Inc,NYSE,Hotels Restaurants and Leisure,515,309,300,1124,BBB – High,205.1,Low Risk,Good
+Celanese Corp,NYSE,Chemicals,500,319,300,1119,BBB – High,60.1,Low Risk,Good
+Dollar General Corp,NYSE,Retail,247,222,200,669,B – Medium,-249.6,High Risk,Poor
+Chipotle Mexican Grill Inc,NYSE,Hotels Restaurants and Leisure,210,241,213,664,B – Medium,-254.9,High Risk,Poor
+Quest Diagnostics Inc,NYSE,Health Care,230,300,205,735,B – Medium,-203.8,High Risk,Poor
+Carnival Corp,NYSE,Hotels Restaurants and Leisure,515,326,320,1161,BBB – High,242.1,Low Risk,Excellent
+Church & Dwight Co Inc,NYSE,Consumer products,578,341,348,1267,A – High,321.5,Low Risk,Excellent
+Dow Inc,NYSE,Chemicals,225,201,200,626,B – Medium,-432.9,High Risk,Poor
+Discover Financial Services,NYSE,Financial Services,335,321,313,969,BBB – High,59.7,Medium Risk,Average
+Duke Energy Corp,NYSE,Utilities,604,362,328,1294,A – High,103.4,Low Risk,Excellent
+Duke Realty Corp,NYSE,Real Estate,540,313,300,1153,BBB – High,157.1,Low Risk,Excellent
+CF Industries Holdings Inc,NYSE,Chemicals,525,307,310,1142,BBB – High,83.1,Low Risk,Good
+Devon Energy Corp,NYSE,Energy,570,301,300,1171,BBB – High,28.7,Low Risk,Excellent
+Ecolab Inc,NYSE,Chemicals,547,373,325,1245,A – High,186.1,Low Risk,Excellent
+Home Depot Inc,NYSE,Retail,230,317,205,752,BB – Medium,-166.6,Medium Risk,Poor
+DTE Energy Co,NYSE,Utilities,592,313,210,1115,BBB – High,-75.6,Low Risk,Good
+Edison International,NYSE,Utilities,700,513,315,1528,A – High,337.4,Low Risk,Excellent
+Corning Inc,NYSE,Electrical Equipment,200,200,200,600,B – Medium,-333.0,High Risk,Poor
+DaVita Inc,NYSE,Health Care,260,332,300,892,BB – Medium,-46.8,Medium Risk,Average
+Western Digital Corp,NASDAQ,Technology,545,339,260,1144,BBB – High,112.7,Low Risk,Excellent
+Goldman Sachs Group Inc,NYSE,Financial Services,525,305,305,1135,BBB – High,225.7,Low Risk,Good
+DXC Technology Co,NYSE,Technology,505,326,305,1136,BBB – High,104.7,Low Risk,Good
+Eaton Corporation PLC,NYSE,Electrical Equipment,520,328,320,1168,BBB – High,235.0,Low Risk,Excellent
+Consolidated Edison Inc,NYSE,Utilities,700,358,300,1358,A – High,167.4,Low Risk,Excellent
+Hershey Co,NYSE,Food Products,525,361,300,1186,BBB – High,54.9,Low Risk,Excellent
+Johnson & Johnson,NYSE,Pharmaceuticals,565,308,300,1173,BBB – High,269.3,Low Risk,Excellent
+JPMorgan Chase & Co,NYSE,Banking,505,319,338,1162,BBB – High,263.7,Low Risk,Excellent
+Coca-Cola Co,NYSE,Beverages,200,201,200,601,B – Medium,-460.0,High Risk,Poor
+Carmax Inc,NYSE,Retail,251,237,300,788,BB – Medium,-130.6,Medium Risk,Average
+Leidos Holdings Inc,NYSE,Professional Services,500,300,300,1100,BBB – High,52.1,Low Risk,Good
+Leggett & Platt Inc,NYSE,Consumer products,500,300,300,1100,BBB – High,154.5,Low Risk,Good
+McDonald's Corp,NYSE,Hotels Restaurants and Leisure,505,326,305,1136,BBB – High,217.1,Low Risk,Good
+Linde PLC,NYSE,Chemicals,210,240,275,725,B – Medium,-333.9,High Risk,Poor
+Lumen Technologies Inc,NYSE,Telecommunication,535,327,305,1167,BBB – High,238.7,Low Risk,Excellent
+LyondellBasell Industries NV,NYSE,Chemicals,587,352,330,1269,A – High,210.1,Low Risk,Excellent
+Moody's Corp,NYSE,Financial Services,515,308,235,1058,BBB – High,148.7,Medium Risk,Good
+Mckesson Corp,NYSE,Health Care,500,303,310,1113,BBB – High,174.2,Low Risk,Good
+Masco Corp,NYSE,Building,522,323,305,1150,BBB – High,75.8,Low Risk,Excellent
+Lowe's Companies Inc,NYSE,Retail,218,200,200,618,B – Medium,-300.6,High Risk,Poor
+Medtronic PLC,NYSE,Health Care,515,308,315,1138,BBB – High,199.2,Low Risk,Good
+McCormick & Company Inc,NYSE,Food Products,500,300,300,1100,BBB – High,-31.1,Low Risk,Good
+MetLife Inc,NYSE,Insurance,517,305,305,1127,BBB – High,114.6,Low Risk,Good
+MGM Resorts International,NYSE,Hotels Restaurants and Leisure,500,300,200,1000,BBB – High,81.1,Medium Risk,Average
+Marsh & McLennan Companies Inc,NYSE,Insurance,500,300,300,1100,BBB – High,87.6,Low Risk,Good
+Altria Group Inc,NYSE,Tobacco,500,327,341,1168,BBB – High,3.0,Low Risk,Excellent
+Borgwarner Inc,NYSE,Auto Components,260,206,230,696,B – Medium,-137.3,High Risk,Poor
+Merck & Co Inc,NYSE,Pharmaceuticals,500,305,315,1120,BBB – High,216.3,Low Risk,Good
+Marathon Oil Corp,NYSE,Energy,530,313,305,1148,BBB – High,5.7,Low Risk,Excellent
+Marathon Petroleum Corp,NYSE,Energy,700,366,315,1381,A – High,238.7,Low Risk,Excellent
+Morgan Stanley,NYSE,Financial Services,555,303,320,1178,BBB – High,268.7,Low Risk,Excellent
+M&T Bank Corp,NYSE,Banking,500,303,260,1063,BBB – High,164.7,Medium Risk,Good
+Mettler-Toledo International Inc,NYSE,Life Sciences Tools and Services,505,300,240,1045,BBB – High,51.9,Medium Risk,Average
+Motorola Solutions Inc,NYSE,Communications,505,305,347,1157,BBB – High,218.8,Low Risk,Excellent
+Nextera Energy Inc,NYSE,Utilities,668,306,313,1287,A – High,96.4,Low Risk,Excellent
+MSCI Inc,NYSE,Financial Services,580,347,335,1262,A – High,352.7,Low Risk,Excellent
+Norwegian Cruise Line Holdings Ltd,NYSE,Hotels Restaurants and Leisure,495,306,300,1101,BBB – High,182.1,Low Risk,Good
+NiSource Inc,NYSE,Utilities,361,322,223,906,BBB – High,-284.6,Medium Risk,Average
+Northrop Grumman Corp,NYSE,Aerospace and Defense,505,302,300,1107,BBB – High,17.3,Low Risk,Good
+ServiceNow Inc,NYSE,Technology,550,374,350,1274,A – High,242.7,Low Risk,Excellent
+Nucor Corp,NYSE,Metals and Mining,374,340,225,939,BBB – High,-89.3,Medium Risk,Average
+Nielsen Holdings PLC,NYSE,Professional Services,500,310,300,1110,BBB – High,62.1,Low Risk,Good
+Norfolk Southern Corp,NYSE,Road and Rail,358,339,330,1027,BBB – High,-49.3,Medium Risk,Average
+NVR Inc,NYSE,Consumer products,265,206,205,676,B – Medium,-269.5,High Risk,Poor
+Progressive Corp,NYSE,Insurance,350,355,270,975,BBB – High,-37.4,Medium Risk,Average
+Pfizer Inc,NYSE,Pharmaceuticals,500,300,300,1100,BBB – High,196.3,Low Risk,Good
+Pultegroup Inc,NYSE,Consumer products,215,203,240,658,B – Medium,-287.5,High Risk,Poor
+Parker-Hannifin Corp,NYSE,Machinery,325,303,225,853,BB – Medium,-195.0,Medium Risk,Average
+PerkinElmer Inc,NYSE,Life Sciences Tools and Services,515,316,325,1156,BBB – High,162.9,Low Risk,Excellent
+Prologis Inc,NYSE,Real Estate,579,374,315,1268,A – High,272.1,Low Risk,Excellent
+PPG Industries Inc,NYSE,Chemicals,293,236,220,749,B – Medium,-309.9,High Risk,Poor
+Public Storage,NYSE,Real Estate,235,245,205,685,B – Medium,-310.9,High Risk,Poor
+PNC Financial Services Group Inc,NYSE,Banking,455,323,300,1078,BBB – High,179.7,Medium Risk,Good
+Philip Morris International Inc,NYSE,Tobacco,520,327,315,1162,BBB – High,-3.0,Low Risk,Excellent
+Packaging Corp of America,NYSE,Packaging,500,303,300,1103,BBB – High,-53.0,Low Risk,Good
+Phillips 66,NYSE,Energy,569,363,310,1242,A – High,99.7,Low Risk,Excellent
+Prudential Financial Inc,NYSE,Insurance,285,300,288,873,BB – Medium,-139.4,Medium Risk,Average
+Pentair PLC,NYSE,Machinery,433,330,315,1078,BBB – High,30.0,Medium Risk,Good
+Pinnacle West Capital Corp,NYSE,Utilities,629,479,300,1408,A – High,217.4,Low Risk,Excellent
+PPL Corp,NYSE,Utilities,525,306,300,1131,BBB – High,-59.6,Low Risk,Good
+Quanta Services Inc,NYSE,Construction,540,382,310,1232,A – High,149.3,Low Risk,Excellent
+Raymond James Financial Inc,NYSE,Financial Services,505,309,305,1119,BBB – High,209.7,Low Risk,Good
+Regions Financial Corp,NYSE,Banking,490,304,305,1099,BBB – High,200.7,Medium Risk,Good
+Royal Caribbean Cruises Ltd,NYSE,Hotels Restaurants and Leisure,503,327,310,1140,BBB – High,221.1,Low Risk,Good
+Ralph Lauren Corp,NYSE,Textiles Apparel and Luxury Goods,420,352,303,1075,BBB – High,130.6,Medium Risk,Good
+PVH Corp,NYSE,Textiles Apparel and Luxury Goods,418,319,315,1052,BBB – High,107.6,Medium Risk,Good
+Robert Half International Inc,NYSE,Professional Services,255,334,310,899,BB – Medium,-148.9,Medium Risk,Average
+Pioneer Natural Resources Co,NYSE,Energy,700,412,300,1412,A – High,269.7,Low Risk,Excellent
+Rollins Inc,NYSE,Commercial Services and Supplies,500,300,305,1105,BBB – High,109.1,Low Risk,Good
+Resmed Inc,NYSE,Health Care,330,312,300,942,BBB – High,3.2,Medium Risk,Average
+Charles Schwab Corp,NYSE,Financial Services,515,300,300,1115,BBB – High,205.7,Low Risk,Good
+Rockwell Automation Inc,NYSE,Electrical Equipment,308,243,210,761,BB – Medium,-172.0,Medium Risk,Poor
+TransDigm Group Inc,NYSE,Aerospace and Defense,500,300,300,1100,BBB – High,10.3,Low Risk,Good
+Sealed Air Corp,NYSE,Packaging,555,318,257,1130,BBB – High,-26.0,Low Risk,Good
+Roper Technologies Inc,NYSE,Technology,570,350,340,1260,A – High,228.7,Low Risk,Excellent
+Stanley Black & Decker Inc,NYSE,Machinery,555,315,300,1170,BBB – High,122.0,Low Risk,Excellent
+Constellation Brands Inc,NYSE,Beverages,459,313,295,1067,BBB – High,6.0,Medium Risk,Good
+Stryker Corp,NYSE,Health Care,485,321,325,1131,BBB – High,192.2,Low Risk,Good
+Sysco Corp,NYSE,Retail,555,301,305,1161,BBB – High,242.4,Low Risk,Excellent
+Sherwin-Williams Co,NYSE,Chemicals,295,259,220,774,BB – Medium,-284.9,Medium Risk,Average
+S&P Global Inc,NYSE,Financial Services,435,341,310,1086,BBB – High,176.7,Medium Risk,Good
+STERIS plc,NYSE,Health Care,510,301,305,1116,BBB – High,177.2,Low Risk,Good
+Synchrony Financial,NYSE,Financial Services,325,312,310,947,BBB – High,37.7,Medium Risk,Average
+Simon Property Group Inc,NYSE,Real Estate,225,247,205,677,B – Medium,-318.9,High Risk,Poor
+Sempra Energy,NYSE,Utilities,700,386,310,1396,A – High,205.4,Low Risk,Excellent
+Southern Co,NYSE,Utilities,515,307,330,1152,BBB – High,-38.6,Low Risk,Excellent
+State Street Corp,NYSE,Financial Services,225,211,210,646,B – Medium,-263.3,High Risk,Poor
+Snap-On Inc,NYSE,Machinery,500,300,261,1061,BBB – High,13.0,Medium Risk,Good
+Raytheon Technologies Corp,NYSE,Aerospace and Defense,520,330,400,1250,A – High,160.3,Low Risk,Excellent
+Hartford Financial Services Group Inc,NYSE,Insurance,500,305,305,1110,BBB – High,97.6,Low Risk,Good
+TE Connectivity Ltd,NYSE,Electrical Equipment,200,200,200,600,B – Medium,-333.0,High Risk,Poor
+Teleflex Inc,NYSE,Health Care,200,200,200,600,B – Medium,-338.8,High Risk,Poor
+Truist Financial Corp,NYSE,Banking,480,308,300,1088,BBB – High,189.7,Medium Risk,Good
+Teledyne Technologies Inc,NYSE,Electrical Equipment,500,300,300,1100,BBB – High,167.0,Low Risk,Good
+Target Corp,NYSE,Retail,550,342,313,1205,A – High,286.4,Low Risk,Excellent
+TJX Companies Inc,NYSE,Retail,500,300,300,1100,BBB – High,181.4,Low Risk,Good
+Tapestry Inc,NYSE,Textiles Apparel and Luxury Goods,483,310,300,1093,BBB – High,148.6,Medium Risk,Good
+Travelers Companies Inc,NYSE,Insurance,500,300,300,1100,BBB – High,87.6,Low Risk,Good
+Thermo Fisher Scientific Inc,NYSE,Life Sciences Tools and Services,527,332,280,1139,BBB – High,145.9,Low Risk,Good
+Trane Technologies PLC,NYSE,Building,700,389,320,1409,A – High,334.8,Low Risk,Excellent
+Tyson Foods Inc,NYSE,Food Products,530,374,340,1244,A – High,112.9,Low Risk,Excellent
+Tyler Technologies Inc,NYSE,Technology,400,306,305,1011,BBB – High,-20.3,Medium Risk,Average
+Textron Inc,NYSE,Aerospace and Defense,500,300,200,1000,BBB – High,-89.7,Medium Risk,Average
+UnitedHealth Group Inc,NYSE,Health Care,500,300,300,1100,BBB – High,161.2,Low Risk,Good
+United Parcel Service Inc,NYSE,Logistics and Transportation,540,374,245,1159,BBB – High,133.8,Low Risk,Excellent
+UDR Inc,NYSE,Real Estate,225,301,215,741,B – Medium,-254.9,High Risk,Poor
+Universal Health Services Inc,NYSE,Health Care,560,320,338,1218,A – High,279.2,Low Risk,Excellent
+Mosaic Co,NYSE,Chemicals,515,379,315,1209,A – High,150.1,Low Risk,Excellent
+US Bancorp,NYSE,Banking,336,317,300,953,BBB – High,54.7,Medium Risk,Average
+United Rentals Inc,NYSE,Trading Companies and Distributors,472,318,300,1090,BBB – High,204.8,Medium Risk,Good
+Vornado Realty Trust,NYSE,Real Estate,540,326,325,1191,BBB – High,195.1,Low Risk,Excellent
+Valero Energy Corp,NYSE,Energy,608,307,330,1245,A – High,102.7,Low Risk,Excellent
+VF Corp,NYSE,Textiles Apparel and Luxury Goods,505,301,300,1106,BBB – High,161.6,Low Risk,Good
+Visa Inc,NYSE,Technology,504,368,310,1182,BBB – High,150.7,Low Risk,Excellent
+Ventas Inc,NYSE,Real Estate,500,300,300,1100,BBB – High,104.1,Low Risk,Good
+Vulcan Materials Co,NYSE,Construction,570,319,300,1189,BBB – High,106.3,Low Risk,Excellent
+WEC Energy Group Inc,NYSE,Utilities,635,438,300,1373,A – High,182.4,Low Risk,Excellent
+Welltower OP LLC,NYSE,Real Estate,437,326,300,1063,BBB – High,67.1,Medium Risk,Good
+Waters Corp,NYSE,Life Sciences Tools and Services,270,292,235,797,BB – Medium,-196.1,Medium Risk,Average
+Waste Management Inc,NYSE,Commercial Services and Supplies,613,408,285,1306,A – High,310.1,Low Risk,Excellent
+Westinghouse Air Brake Technologies Corp,NYSE,Machinery,607,311,320,1238,A – High,190.0,Low Risk,Excellent
+Williams Companies Inc,NYSE,Energy,500,300,300,1100,BBB – High,-42.3,Low Risk,Good
+Wells Fargo & Co,NYSE,Banking,500,300,300,1100,BBB – High,201.7,Low Risk,Good
+Whirlpool Corp,NYSE,Consumer products,500,301,300,1101,BBB – High,155.5,Low Risk,Good
+West Pharmaceutical Services Inc,NYSE,Life Sciences Tools and Services,540,330,305,1175,BBB – High,181.9,Low Risk,Excellent
+W R Berkley Corp,NYSE,Insurance,360,294,300,954,BBB – High,-58.4,Medium Risk,Average
+Walmart Inc,NYSE,Retail,310,281,220,811,BB – Medium,-107.6,Medium Risk,Average
+Western Union Co,NYSE,Technology,205,205,228,638,B – Medium,-393.3,High Risk,Poor
+Yum! Brands Inc,NYSE,Hotels Restaurants and Leisure,500,320,310,1130,BBB – High,211.1,Low Risk,Good
+Xylem Inc,NYSE,Machinery,374,254,210,838,BB – Medium,-210.0,Medium Risk,Average
+Weyerhaeuser Co,NYSE,Real Estate,700,340,300,1340,A – High,344.1,Low Risk,Excellent
+Westrock Co,NYSE,Packaging,555,324,305,1184,BBB – High,28.0,Low Risk,Excellent
+Exxon Mobil Corp,NYSE,Energy,538,322,313,1173,BBB – High,30.7,Low Risk,Excellent
+Zimmer Biomet Holdings Inc,NYSE,Health Care,520,330,310,1160,BBB – High,221.2,Low Risk,Excellent
+Zoetis Inc,NYSE,Pharmaceuticals,520,348,310,1178,BBB – High,274.3,Low Risk,Excellent
+Deere & Co,NYSE,Machinery,560,339,305,1204,A – High,156.0,Low Risk,Excellent
+Dupont De Nemours Inc,NYSE,Chemicals,550,341,295,1186,BBB – High,127.1,Low Risk,Excellent
+Dominion Energy Inc,NYSE,Utilities,535,325,310,1170,BBB – High,-20.6,Low Risk,Excellent
+CVS Health Corp,NYSE,Health Care,540,302,315,1157,BBB – High,218.2,Low Risk,Excellent
+Delta Air Lines Inc,NYSE,Airlines,515,300,313,1128,BBB – High,289.3,Low Risk,Good
+Salesforce Inc,NYSE,Technology,215,241,200,656,B – Medium,-375.3,High Risk,Poor
+Chevron Corp,NYSE,Energy,210,217,210,637,B – Medium,-505.3,High Risk,Poor
+Corteva Inc,NYSE,Chemicals,610,312,320,1242,A – High,183.1,Low Risk,Excellent
+Coterra Energy Inc,NYSE,Energy,555,329,310,1194,BBB – High,51.7,Low Risk,Excellent
+Catalent Inc,NYSE,Pharmaceuticals,483,303,305,1091,BBB – High,187.3,Medium Risk,Good
+Campbell Soup Co,NYSE,Food Products,515,301,305,1121,BBB – High,-10.1,Low Risk,Good
+Charles River Laboratories International Inc,NYSE,Life Sciences Tools and Services,510,322,235,1067,BBB – High,73.9,Medium Risk,Good
+Conocophillips,NYSE,Energy,687,544,305,1536,A – High,393.7,Low Risk,Excellent
+Cooper Companies Inc,NYSE,Health Care,500,300,300,1100,BBB – High,161.2,Low Risk,Good
+Capital One Financial Corp,NYSE,Financial Services,508,309,320,1137,BBB – High,227.7,Low Risk,Good
+Centene Corp,NYSE,Health Care,548,355,315,1218,A – High,279.2,Low Risk,Excellent
+CenterPoint Energy Inc,NYSE,Utilities,550,320,260,1130,BBB – High,-60.6,Low Risk,Good
+CMS Energy Corp,NYSE,Utilities,450,667,75,1192,BBB – High,1.4,Low Risk,Excellent
+Cummins Inc,NYSE,Machinery,510,320,300,1130,BBB – High,82.0,Low Risk,Good
+Colgate-Palmolive Co,NYSE,Consumer products,520,310,310,1140,BBB – High,194.5,Low Risk,Good
+3M Co,NYSE,Industrial Conglomerates,526,310,305,1141,BBB – High,-16.0,Low Risk,Good
+Citizens Financial Group Inc,NYSE,Banking,230,215,205,650,B – Medium,-248.3,High Risk,Poor
+Conagra Brands Inc,NYSE,Food Products,525,306,300,1131,BBB – High,-0.1,Low Risk,Good
+Cigna Corp,NYSE,Health Care,508,328,310,1146,BBB – High,207.2,Low Risk,Excellent
+Cardinal Health Inc,NYSE,Health Care,505,300,315,1120,BBB – High,181.2,Low Risk,Good
+Mastercard Inc,NYSE,Technology,210,230,215,655,B – Medium,-376.3,High Risk,Poor
+Lamb Weston Holdings Inc,NYSE,Food Products,345,256,300,901,BBB – High,-230.1,Medium Risk,Average
+Mid-America Apartment Communities Inc,NYSE,Real Estate,315,261,210,786,BB – Medium,-209.9,Medium Risk,Average
+Martin Marietta Materials Inc,NYSE,Construction,573,313,300,1186,BBB – High,103.3,Low Risk,Excellent
+Southwest Airlines Co,NYSE,Airlines,295,314,218,827,BB – Medium,-11.7,Medium Risk,Average
+Lincoln National Corp,NYSE,Insurance,700,300,300,1300,A – High,287.6,Low Risk,Excellent
+Lennar Corp,NYSE,Consumer products,363,344,220,927,BBB – High,-18.5,Medium Risk,Average
+Procter & Gamble Co,NYSE,Consumer products,560,422,310,1292,A – High,346.5,Low Risk,Excellent
+Organon & Co,NYSE,Pharmaceuticals,515,335,305,1155,BBB – High,251.3,Low Risk,Excellent
+Occidental Petroleum Corp,NYSE,Energy,505,302,300,1107,BBB – High,-35.3,Low Risk,Good
+Dell Technologies Inc,NYSE,Technology,500,318,275,1093,BBB – High,61.7,Medium Risk,Good
+Paycom Software Inc,NYSE,Technology,470,305,315,1090,BBB – High,58.7,Medium Risk,Good
+Public Service Enterprise Group Inc,NYSE,Utilities,500,300,205,1005,BBB – High,-185.6,Medium Risk,Average
+ONEOK Inc,NYSE,Energy,581,326,355,1262,A – High,119.7,Low Risk,Excellent
+NRG Energy Inc,NYSE,Utilities,371,327,218,916,BBB – High,-274.6,Medium Risk,Average
+Loews Corp,NYSE,Insurance,505,303,313,1121,BBB – High,108.6,Low Risk,Good
+Omnicom Group Inc,NYSE,Media,543,333,305,1181,BBB – High,245.7,Low Risk,Excellent
+Oracle Corp,NYSE,Technology,500,300,200,1000,BBB – High,-31.3,Medium Risk,Average
+Realty Income Corp,NYSE,Real Estate,500,300,300,1100,BBB – High,104.1,Low Risk,Good
+Domino's Pizza Inc,NYSE,Hotels Restaurants and Leisure,205,205,200,610,B – Medium,-308.9,High Risk,Poor
+AT&T Inc,NYSE,Telecommunication,210,200,305,715,B – Medium,-213.3,High Risk,Poor
+Union Pacific Corp,NYSE,Road and Rail,290,257,245,792,BB – Medium,-284.3,Medium Risk,Average
+Newmont Corporation,NYSE,Metals and Mining,675,389,355,1419,A – High,390.7,Low Risk,Excellent
+FedEx Corp,NYSE,Logistics and Transportation,335,278,255,868,BB – Medium,-157.2,Medium Risk,Average
+Nike Inc,NYSE,Textiles Apparel and Luxury Goods,205,275,200,680,B – Medium,-264.4,High Risk,Poor
+Ford Motor Co,NYSE,Automobiles,292,246,215,753,BB – Medium,-106.2,Medium Risk,Poor
+Lockheed Martin Corp,NYSE,Aerospace and Defense,510,324,320,1154,BBB – High,64.3,Low Risk,Excellent
+Republic Services Inc,NYSE,Commercial Services and Supplies,293,235,216,744,B – Medium,-251.9,High Risk,Poor
+Enphase Energy Inc,NASDAQ,Semiconductors,565,316,300,1181,BBB – High,150.4,Low Risk,Excellent
+Exelon Corp,NASDAQ,Utilities,694,403,316,1413,A – High,222.4,Low Risk,Excellent
+Expeditors International of Washington Inc,NASDAQ,Logistics and Transportation,510,302,300,1112,BBB – High,86.8,Low Risk,Good
+Expedia Group Inc,NASDAQ,Hotels Restaurants and Leisure,225,242,305,772,BB – Medium,-146.9,Medium Risk,Average
+Fastenal Co,NASDAQ,Trading Companies and Distributors,230,302,200,732,B – Medium,-153.2,High Risk,Poor
+F5 Inc,NASDAQ,Communications,200,221,215,636,B – Medium,-302.2,High Risk,Poor
+Fiserv Inc,NASDAQ,Technology,395,302,310,1007,BBB – High,-24.3,Medium Risk,Average
+Equinix Inc,NASDAQ,Real Estate,515,323,315,1153,BBB – High,157.1,Low Risk,Excellent
+Fortinet Inc,NASDAQ,Technology,500,306,305,1111,BBB – High,79.7,Low Risk,Good
+ETSY Inc,NASDAQ,Retail,235,241,235,711,B – Medium,-207.6,High Risk,Poor
+Franklin Resources Inc,NYSE,Financial Services,321,349,310,980,BBB – High,70.7,Medium Risk,Average
+Digital Realty Trust Inc,NYSE,Real Estate,540,317,300,1157,BBB – High,161.1,Low Risk,Excellent
+Danaher Corp,NYSE,Life Sciences Tools and Services,530,344,385,1259,A – High,265.9,Low Risk,Excellent
+Equifax Inc,NYSE,Professional Services,390,300,305,995,BBB – High,-52.9,Medium Risk,Average
+Estee Lauder Companies Inc,NYSE,Consumer products,500,300,300,1100,BBB – High,154.5,Low Risk,Good
+Eastman Chemical Co,NYSE,Chemicals,583,365,310,1258,A – High,199.1,Low Risk,Excellent
+Emerson Electric Co,NYSE,Electrical Equipment,605,323,315,1243,A – High,310.0,Low Risk,Excellent
+EOG Resources Inc,NYSE,Energy,550,252,240,1042,BBB – High,-100.3,Medium Risk,Average
+Equity Residential,NYSE,Real Estate,235,208,210,653,B – Medium,-342.9,High Risk,Poor
+Eversource Energy,NYSE,Utilities,576,409,310,1295,A – High,104.4,Low Risk,Excellent
+Essex Property Trust Inc,NYSE,Real Estate,377,304,210,891,BB – Medium,-104.9,Medium Risk,Average
+Fifth Third Bancorp,NASDAQ,Banking,313,300,215,828,BB – Medium,-70.3,Medium Risk,Average
+Entergy Corp,NYSE,Utilities,653,380,310,1343,A – High,152.4,Low Risk,Excellent
+Extra Space Storage Inc,NYSE,Real Estate,572,289,225,1086,BBB – High,90.1,Medium Risk,Good
+Edwards Lifesciences Corp,NYSE,Health Care,290,333,305,928,BBB – High,-10.8,Medium Risk,Average
+Fox Corp,NASDAQ,Media,295,330,315,940,BBB – High,4.7,Medium Risk,Average
+Freeport-McMoRan Inc,NYSE,Metals and Mining,608,313,305,1226,A – High,197.7,Low Risk,Excellent
+FirstEnergy Corp,NYSE,Utilities,510,304,300,1114,BBB – High,-76.6,Low Risk,Good
+Fleetcor Technologies Inc,NYSE,Technology,410,302,300,1012,BBB – High,-19.3,Medium Risk,Average
+Fidelity National Information Services Inc,NYSE,Technology,530,298,310,1138,BBB – High,106.7,Low Risk,Good
+First Republic Bank,NYSE,Banking,370,331,288,989,BBB – High,90.7,Medium Risk,Average
+FMC Corp,NYSE,Chemicals,510,307,315,1132,BBB – High,73.1,Low Risk,Good
+Federal Realty Investment Trust,NYSE,Real Estate,525,302,300,1127,BBB – High,131.1,Low Risk,Good
+Fortive Corp,NYSE,Machinery,540,326,305,1171,BBB – High,123.0,Low Risk,Excellent
+Gap Inc,NYSE,Retail,515,349,300,1164,BBB – High,245.4,Low Risk,Excellent
+Garmin Ltd,NYSE,Consumer products,205,242,200,647,B – Medium,-298.5,High Risk,Poor
+Gartner Inc,NYSE,Technology,500,316,315,1131,BBB – High,99.7,Low Risk,Good
+Eli Lilly and Co,NYSE,Pharmaceuticals,510,360,310,1180,BBB – High,276.3,Low Risk,Excellent
+Everest Re Group Ltd,NYSE,Insurance,505,276,305,1086,BBB – High,73.6,Medium Risk,Good
+Evergy Inc,NYSE,Utilities,555,310,300,1165,BBB – High,-25.6,Low Risk,Excellent
+Fortune Brands Home & Security Inc,NYSE,Building,510,302,300,1112,BBB – High,37.8,Low Risk,Good
+Gilead Sciences Inc,NASDAQ,Biotechnology,500,303,300,1103,BBB – High,236.1,Low Risk,Good
+Hologic Inc,NASDAQ,Health Care,515,324,315,1154,BBB – High,215.2,Low Risk,Excellent
+Henry Schein Inc,NASDAQ,Health Care,210,205,200,615,B – Medium,-323.8,High Risk,Poor
+Honeywell International Inc,NASDAQ,Industrial Conglomerates,545,344,308,1197,BBB – High,40.0,Low Risk,Excellent
+Host Hotels & Resorts Inc,NASDAQ,Real Estate,510,318,318,1146,BBB – High,150.1,Low Risk,Excellent
+General Dynamics Corp,NYSE,Aerospace and Defense,510,310,300,1120,BBB – High,30.3,Low Risk,Good
+Hasbro Inc,NASDAQ,Leisure Products,255,301,300,856,BB – Medium,76.0,Medium Risk,Average
+Huntington Bancshares Inc,NASDAQ,Banking,308,300,300,908,BBB – High,9.7,Medium Risk,Average
+Globe Life Inc,NYSE,Insurance,215,238,215,668,B – Medium,-344.4,High Risk,Poor
+Genuine Parts Co,NYSE,Distributors,535,225,305,1065,BBB – High,-44.7,Medium Risk,Good
+Generac Holdings Inc,NYSE,Electrical Equipment,535,311,250,1096,BBB – High,163.0,Medium Risk,Good
+Global Payments Inc,NYSE,Technology,310,343,265,918,BBB – High,-113.3,Medium Risk,Average
+HCA Healthcare Inc,NYSE,Health Care,520,348,305,1173,BBB – High,234.2,Low Risk,Excellent
+HanesBrands Inc,NYSE,Textiles Apparel and Luxury Goods,310,223,305,838,BB – Medium,-106.4,Medium Risk,Average
+Huntington Ingalls Industries Inc,NYSE,Aerospace and Defense,545,315,315,1175,BBB – High,85.3,Low Risk,Excellent
+Hewlett Packard Enterprise Co,NYSE,Technology,230,359,230,819,BB – Medium,-212.3,Medium Risk,Average
+Hess Corp,NYSE,Energy,535,300,305,1140,BBB – High,-2.3,Low Risk,Good
+Hilton Worldwide Holdings Inc,NYSE,Hotels Restaurants and Leisure,293,200,205,698,B – Medium,-220.9,High Risk,Poor
+Hormel Foods Corp,NYSE,Food Products,570,322,300,1192,BBB – High,60.9,Low Risk,Excellent
+HP Inc,NYSE,Technology,245,211,200,656,B – Medium,-375.3,High Risk,Poor
+Humana Inc,NYSE,Health Care,462,300,300,1062,BBB – High,123.2,Medium Risk,Good
+Howmet Aerospace Inc,NYSE,Aerospace and Defense,525,315,320,1160,BBB – High,70.3,Low Risk,Excellent
+Healthpeak Properties Inc,NYSE,Real Estate,535,331,335,1201,A – High,205.1,Low Risk,Excellent
+General Mills Inc,NYSE,Food Products,585,326,365,1276,A – High,144.9,Low Risk,Excellent
+General Electric Co,NYSE,Industrial Conglomerates,533,300,300,1133,BBB – High,-24.0,Low Risk,Good
+Spotify Technology SA,NYSE,Media,500,283,255,1038,BBB – High,102.7,Medium Risk,Average
+Triton International Ltd,NYSE,Trading Companies and Distributors,477,306,300,1083,BBB – High,197.8,Medium Risk,Good
+TPG RE Finance Trust Inc,NYSE,Real Estate,230,239,300,769,BB – Medium,-226.9,Medium Risk,Average
+TransUnion,NYSE,Professional Services,510,313,310,1133,BBB – High,85.1,Low Risk,Good
+Yeti Holdings Inc,NYSE,Leisure Products,269,253,305,827,BB – Medium,47.0,Medium Risk,Average
+Yelp Inc,NYSE,Media,245,515,213,973,BBB – High,37.7,Medium Risk,Average
+Yext Inc,NYSE,Technology,325,314,310,949,BBB – High,-82.3,Medium Risk,Average
+Spirit AeroSystems Holdings Inc,NYSE,Aerospace and Defense,515,337,300,1152,BBB – High,62.3,Low Risk,Excellent
+Yatsen Holding Ltd,NYSE,Consumer products,355,217,325,897,BB – Medium,-48.5,Medium Risk,Average
+Yiren Digital Ltd,NYSE,Financial Services,200,205,205,610,B – Medium,-299.3,High Risk,Poor
+Yum China Holdings Inc,NYSE,Hotels Restaurants and Leisure,205,217,220,642,B – Medium,-276.9,High Risk,Poor
+Tronox Holdings PLC,NYSE,Chemicals,503,320,300,1123,BBB – High,64.1,Low Risk,Good
+Zepp Health Corp,NYSE,Electrical Equipment,202,210,295,707,B – Medium,-226.0,High Risk,Poor
+Lightning eMotors Inc,NYSE,Machinery,535,391,240,1166,BBB – High,118.0,Low Risk,Excellent
+Zuora Inc,NYSE,Technology,240,234,200,674,B – Medium,-357.3,High Risk,Poor
+ZIM Integrated Shipping Services Ltd,NYSE,Marine,329,351,320,1000,BBB – High,134.7,Medium Risk,Average
+Zymeworks Inc,NYSE,Biotechnology,240,326,305,871,BB – Medium,4.1,Medium Risk,Average
+Zurn Elkay Water Solutions Corp,NYSE,Building,500,300,300,1100,BBB – High,25.8,Low Risk,Good
+Clear Secure Inc,NYSE,Technology,515,278,205,998,BBB – High,-33.3,Medium Risk,Average
+Zendesk Inc,NYSE,Technology,515,338,320,1173,BBB – High,141.7,Low Risk,Excellent
+Plexus Corp,NASDAQ,Electrical Equipment,510,300,300,1110,BBB – High,177.0,Low Risk,Good
+Seanergy Maritime Holdings Corp,NASDAQ,Marine,345,300,305,950,BBB – High,84.7,Medium Risk,Average
+Shoals Technologies Group Inc,NASDAQ,Electrical Equipment,285,280,300,865,BB – Medium,-68.0,Medium Risk,Average
+Steven Madden Ltd,NASDAQ,Textiles Apparel and Luxury Goods,508,231,300,1039,BBB – High,94.6,Medium Risk,Average
+Shyft Group Inc,NASDAQ,Machinery,510,303,275,1088,BBB – High,40.0,Medium Risk,Good
+SI-BONE Inc,NASDAQ,Health Care,220,228,210,658,B – Medium,-280.8,High Risk,Poor
+Siebert Financial Corp,NASDAQ,Financial Services,300,299,235,834,BB – Medium,-75.3,Medium Risk,Average
+Playa Hotels & Resorts NV,NASDAQ,Hotels Restaurants and Leisure,210,200,205,615,B – Medium,-303.9,High Risk,Poor
+World Wrestling Entertainment Inc,NYSE,Media,275,332,315,922,BBB – High,-13.3,Medium Risk,Average
+PharmaCyte Biotech Inc,NASDAQ,Biotechnology,220,202,300,722,B – Medium,-144.9,High Risk,Poor
+Wolverine World Wide Inc,NYSE,Textiles Apparel and Luxury Goods,390,298,308,996,BBB – High,51.6,Medium Risk,Average
+Xenia Hotels & Resorts Inc,NYSE,Real Estate,260,263,236,759,BB – Medium,-236.9,Medium Risk,Poor
+United States Steel Corp,NYSE,Metals and Mining,535,364,300,1199,BBB – High,170.7,Low Risk,Excellent
+Xpeng Inc,NYSE,Automobiles,215,208,200,623,B – Medium,-236.2,High Risk,Poor
+XPO Logistics Inc,NYSE,Road and Rail,560,318,300,1178,BBB – High,101.7,Low Risk,Excellent
+Xinyuan Real Estate Co Ltd,NYSE,Real Estate,205,242,300,747,B – Medium,-248.9,High Risk,Poor
+XL Fleet Corp,NYSE,Auto Components,200,200,200,600,B – Medium,-233.3,High Risk,Poor
+X Financial,NYSE,Financial Services,215,205,200,620,B – Medium,-289.3,High Risk,Poor
+Alleghany Corp,NYSE,Insurance,215,240,300,755,BB – Medium,-257.4,Medium Risk,Poor
+Yalla Group Ltd,NYSE,Media,233,244,220,697,B – Medium,-238.3,High Risk,Poor
+Watts Water Technologies Inc,NYSE,Machinery,420,303,210,933,BBB – High,-115.0,Medium Risk,Average
+Sientra Inc,NASDAQ,Health Care,219,308,236,763,BB – Medium,-175.8,Medium Risk,Average
+Hain Celestial Group Inc,NASDAQ,Food Products,520,302,305,1127,BBB – High,-4.1,Low Risk,Good
+MMTEC Inc,NASDAQ,Technology,221,225,305,751,BB – Medium,-280.3,Medium Risk,Poor
+Metacrine Inc,NASDAQ,Biotechnology,210,207,330,747,B – Medium,-119.9,High Risk,Poor
+Molecular Templates Inc,NASDAQ,Biotechnology,360,325,320,1005,BBB – High,138.1,Medium Risk,Average
+Materialise NV,NASDAQ,Technology,505,301,300,1106,BBB – High,74.7,Low Risk,Good
+Mannatech Inc,NASDAQ,Consumer products,200,260,230,690,B – Medium,-255.5,High Risk,Poor
+Matrix Service Co,NASDAQ,Construction,589,390,277,1256,A – High,173.3,Low Risk,Excellent
+Halozyme Therapeutics Inc,NASDAQ,Biotechnology,510,302,315,1127,BBB – High,260.1,Low Risk,Good
+Hallmark Financial Services Inc,NASDAQ,Insurance,215,233,300,748,B – Medium,-264.4,High Risk,Poor
+MVB Financial Corp,NASDAQ,Banking,210,215,215,640,B – Medium,-258.3,High Risk,Poor
+Microvast Holdings Inc,NASDAQ,Machinery,225,282,210,717,B – Medium,-331.0,High Risk,Poor
+MicroVision Inc,NASDAQ,Electrical Equipment,451,300,330,1081,BBB – High,148.0,Medium Risk,Good
+MaxCyte Inc,NASDAQ,Life Sciences Tools and Services,220,300,248,768,BB – Medium,-225.1,Medium Risk,Average
+Myriad Genetics Inc,NASDAQ,Biotechnology,353,321,294,968,BBB – High,101.1,Medium Risk,Average
+First Western Financial Inc,NASDAQ,Banking,351,300,235,886,BB – Medium,-12.3,Medium Risk,Average
+Maxlinear Inc,NASDAQ,Semiconductors,535,325,335,1195,BBB – High,164.4,Low Risk,Excellent
+MyMD Pharmaceuticals Inc,NASDAQ,Pharmaceuticals,205,257,230,692,B – Medium,-211.7,High Risk,Poor
+Playstudios Inc,NASDAQ,Media,205,202,200,607,B – Medium,-328.3,High Risk,Poor
+Matterport Inc,NASDAQ,Technology,346,325,260,931,BBB – High,-100.3,Medium Risk,Average
+MACOM Technology Solutions Holdings Inc,NASDAQ,Semiconductors,377,309,255,941,BBB – High,-89.6,Medium Risk,Average
+Clearone Inc,NASDAQ,Communications,370,228,210,808,BB – Medium,-130.2,Medium Risk,Average
+Celsion Corp,NASDAQ,Biotechnology,255,214,300,769,BB – Medium,-97.9,Medium Risk,Average
+Gulf Resources Inc,NASDAQ,Chemicals,408,206,300,914,BBB – High,-144.9,Medium Risk,Average
+GSE Systems Inc,NASDAQ,Technology,505,307,245,1057,BBB – High,25.7,Medium Risk,Good
+Gyrodyne LLC,NASDAQ,Real Estate,240,206,240,686,B – Medium,-309.9,High Risk,Poor
+Global Water Resources Inc,NASDAQ,Utilities,367,297,235,899,BB – Medium,-291.6,Medium Risk,Average
+Hawaiian Holdings Inc,NASDAQ,Airlines,200,321,200,721,B – Medium,-117.7,High Risk,Poor
+CleanSpark Inc,NASDAQ,Technology,570,326,310,1206,A – High,174.7,Low Risk,Excellent
+Clearside Biomedical Inc,NASDAQ,Pharmaceuticals,215,230,200,645,B – Medium,-258.7,High Risk,Poor
+Health Assurance Acquisition Corp,NASDAQ,Unknown,200,258,300,758,BB – Medium,,Medium Risk,Poor
+Hanmi Financial Corp,NASDAQ,Banking,250,207,233,690,B – Medium,-208.3,High Risk,Poor
+Catalyst Bancorp Inc,NASDAQ,Financial Services,260,350,267,877,BB – Medium,-32.3,Medium Risk,Average
+Euro Tech Holdings Company Ltd,NASDAQ,Trading Companies and Distributors,230,201,210,641,B – Medium,-244.2,High Risk,Poor
+Calyxt Inc,NASDAQ,Biotechnology,535,322,325,1182,BBB – High,315.1,Low Risk,Excellent
+Cambium Networks Corp,NASDAQ,Communications,505,337,300,1142,BBB – High,203.8,Low Risk,Good
+Columbus McKinnon Corp,NASDAQ,Machinery,200,323,240,763,BB – Medium,-285.0,Medium Risk,Average
+Ever-Glory International Group Inc,NASDAQ,Textiles Apparel and Luxury Goods,200,211,210,621,B – Medium,-323.4,High Risk,Poor
+Clovis Oncology Inc,NASDAQ,Biotechnology,225,212,300,737,B – Medium,-129.9,High Risk,Poor
+Clever Leaves Holdings Inc,NASDAQ,Pharmaceuticals,225,243,205,673,B – Medium,-230.7,High Risk,Poor
+Happiness Development Group Ltd,NASDAQ,Consumer products,225,207,300,732,B – Medium,-213.5,High Risk,Poor
+Home Bancorp Inc,NASDAQ,Financial Services,230,202,200,632,B – Medium,-277.3,High Risk,Poor
+Harvard Bioscience Inc,NASDAQ,Life Sciences Tools and Services,250,221,300,771,BB – Medium,-222.1,Medium Risk,Average
+Horizon Bancorp Inc,NASDAQ,Banking,255,321,233,809,BB – Medium,-89.3,Medium Risk,Average
+HBT Financial Inc,NASDAQ,Banking,245,275,300,820,BB – Medium,-78.3,Medium Risk,Average
+Health Catalyst Inc,NASDAQ,Health Care,545,324,320,1189,BBB – High,250.2,Low Risk,Excellent
+Healthcare Services Acquisition Corp,NASDAQ,Unknown,245,205,300,750,BB – Medium,,Medium Risk,Poor
+Harpoon Therapeutics Inc,NASDAQ,Biotechnology,485,300,310,1095,BBB – High,228.1,Medium Risk,Good
+Haynes International Inc,NASDAQ,Metals and Mining,500,301,300,1101,BBB – High,72.7,Low Risk,Good
+Patriot National Bancorp Inc,NASDAQ,Banking,205,302,210,717,B – Medium,-181.3,High Risk,Poor
+Harbor Custom Development Inc,NASDAQ,Consumer products,222,221,208,651,B – Medium,-294.5,High Risk,Poor
+Heritage-Crystal Clean Inc,NASDAQ,Commercial Services and Supplies,525,400,300,1225,A – High,229.1,Low Risk,Excellent
+Pinnacle Financial Partners Inc,NASDAQ,Banking,271,328,250,849,BB – Medium,-49.3,Medium Risk,Average
+POINT Biopharma Global Inc,NASDAQ,Biotechnology,320,221,285,826,BB – Medium,-40.9,Medium Risk,Average
+Predictive Oncology Inc,NASDAQ,Health Care,278,297,220,795,BB – Medium,-143.8,Medium Risk,Average
+Polar Power Inc,NASDAQ,Electrical Equipment,200,200,200,600,B – Medium,-333.0,High Risk,Poor
+Insulet Corp,NASDAQ,Health Care,215,233,205,653,B – Medium,-285.8,High Risk,Poor
+Power Integrations Inc,NASDAQ,Semiconductors,575,285,305,1165,BBB – High,134.4,Low Risk,Excellent
+Ammo Inc,NASDAQ,Leisure Products,233,224,200,657,B – Medium,-123.0,High Risk,Poor
+Primeenergy Resources Corp,NASDAQ,Energy,200,200,260,660,B – Medium,-482.3,High Risk,Poor
+Pennant Group Inc,NASDAQ,Health Care,245,306,200,751,BB – Medium,-187.8,Medium Risk,Poor
+Pacific Premier Bancorp Inc,NASDAQ,Banking,565,328,315,1208,A – High,309.7,Low Risk,Excellent
+Perma-Pipe International Holdings Inc,NASDAQ,Machinery,500,260,300,1060,BBB – High,12.0,Medium Risk,Good
+Pilgrims Pride Corp,NASDAQ,Food Products,500,302,220,1022,BBB – High,-109.1,Medium Risk,Average
+PRA Group Inc,NASDAQ,Financial Services,473,321,310,1104,BBB – High,194.7,Low Risk,Good
+Pioneer Power Solutions Inc,NASDAQ,Electrical Equipment,299,305,315,919,BBB – High,-14.0,Medium Risk,Average
+Praxis Precision Medicines Inc,NASDAQ,Biotechnology,200,215,215,630,B – Medium,-236.9,High Risk,Poor
+Procept Biorobotics Corp,NASDAQ,Health Care,200,224,300,724,B – Medium,-214.8,High Risk,Poor
+Porch Group Inc,NASDAQ,Retail,225,227,215,667,B – Medium,-251.6,High Risk,Poor
+Artisan Acquisition Corp,NASDAQ,Unknown,245,203,265,713,B – Medium,,High Risk,Poor
+Perdoceo Education Corp,NASDAQ,Diversified Consumer Services,365,297,250,912,BBB – High,172.7,Medium Risk,Average
+Shineco Inc,NASDAQ,Consumer products,340,346,305,991,BBB – High,45.5,Medium Risk,Average
+SiTime Corp,NASDAQ,Semiconductors,505,304,300,1109,BBB – High,78.4,Low Risk,Good
+Sirius XM Holdings Inc,NASDAQ,Media,240,302,205,747,B – Medium,-188.3,High Risk,Poor
+Scienjoy Holding Corp,NASDAQ,Media,260,320,240,820,BB – Medium,-115.3,Medium Risk,Average
+Powered Brands,NASDAQ,Unknown,235,231,250,716,B – Medium,,High Risk,Poor
+Powell Industries Inc,NASDAQ,Electrical Equipment,500,240,215,955,BBB – High,22.0,Medium Risk,Average
+Upwork Inc,NASDAQ,Professional Services,275,264,278,817,BB – Medium,-230.9,Medium Risk,Average
+USA Truck Inc,NASDAQ,Road and Rail,532,311,303,1146,BBB – High,69.7,Low Risk,Excellent
+US Gold Corp,NASDAQ,Metals and Mining,400,240,300,940,BBB – High,-88.3,Medium Risk,Average
+Universal Stainless & Alloy Products Inc,NASDAQ,Metals and Mining,238,231,200,669,B – Medium,-359.3,High Risk,Poor
+US Energy Corp,NASDAQ,Energy,438,265,315,1018,BBB – High,-124.3,Medium Risk,Average
+Usio Inc,NASDAQ,Technology,285,245,240,770,BB – Medium,-261.3,Medium Risk,Average
+United Therapeutics Corp,NASDAQ,Biotechnology,233,259,300,792,BB – Medium,-74.9,Medium Risk,Average
+Urogen Pharma Ltd,NASDAQ,Biotechnology,210,251,290,751,BB – Medium,-115.9,Medium Risk,Poor
+Urban Outfitters Inc,NASDAQ,Retail,335,300,300,935,BBB – High,16.4,Medium Risk,Average
+Utime Ltd,NASDAQ,Electrical Equipment,217,200,200,617,B – Medium,-316.0,High Risk,Poor
+Minerva Surgical Inc,NASDAQ,Health Care,205,201,210,616,B – Medium,-322.8,High Risk,Poor
+UTStarcom Holdings Corp,NASDAQ,Communications,340,310,365,1015,BBB – High,76.8,Medium Risk,Average
+Uxin Ltd,NASDAQ,Retail,203,202,225,630,B – Medium,-288.6,High Risk,Poor
+Univest Financial Corp,NASDAQ,Banking,331,322,305,958,BBB – High,59.7,Medium Risk,Average
+Cheetah Mobile Inc,NYSE,Technology,205,214,215,634,B – Medium,-397.3,High Risk,Poor
+Commercial Metals Co,NYSE,Metals and Mining,223,212,200,635,B – Medium,-393.3,High Risk,Poor
+United States Lime & Minerals Inc,NASDAQ,Construction,500,233,300,1033,BBB – High,-49.7,Medium Risk,Average
+Utah Medical Products Inc,NASDAQ,Health Care,240,236,250,726,B – Medium,-212.8,High Risk,Poor
+Compass Minerals International Inc,NYSE,Metals and Mining,505,302,320,1127,BBB – High,98.7,Low Risk,Good
+Concord Acquisition Corp,NYSE,Unknown,205,257,300,762,BB – Medium,,Medium Risk,Poor
+CNFinance Holdings Ltd,NYSE,Financial Services,200,200,220,620,B – Medium,-289.3,High Risk,Poor
+Conmed Corp,NYSE,Health Care,441,300,270,1011,BBB – High,72.2,Medium Risk,Average
+Cinemark Holdings Inc,NYSE,Media,330,300,300,930,BBB – High,-5.3,Medium Risk,Average
+Cannae Holdings Inc,NYSE,Financial Services,215,203,203,621,B – Medium,-288.3,High Risk,Poor
+CNO Financial Group Inc,NYSE,Insurance,500,322,315,1137,BBB – High,124.6,Low Risk,Good
+CNA Financial Corp,NYSE,Insurance,540,329,340,1209,A – High,196.6,Low Risk,Excellent
+Costamare Inc,NYSE,Marine,242,204,200,646,B – Medium,-219.3,High Risk,Poor
+Granite Construction Inc,NYSE,Construction,200,200,200,600,B – Medium,-482.7,High Risk,Poor
+Fabrinet,NYSE,Electrical Equipment,510,209,210,929,BBB – High,-4.0,Medium Risk,Average
+Hyatt Hotels Corp,NYSE,"Hotels, Restaurants & Leisure",235,209,205,649,B – Medium,-97.0,High Risk,Poor
+Hannon Armstrong Sustainable Infrastructure Capital Inc,NYSE,Real Estate,646,404,313,1363,A – High,367.1,Low Risk,Excellent
+Hayward Holdings Inc,NYSE,Building,535,305,300,1140,BBB – High,65.8,Low Risk,Good
+Hamilton Beach Brands Holding Co,NYSE,Consumer products,245,272,230,747,B – Medium,-198.5,High Risk,Poor
+Warrior Met Coal Inc,NYSE,Metals & Mining,215,200,200,615,B – Medium,0.0,High Risk,Poor
+Hci Group Inc,NYSE,Insurance,205,260,300,765,BB – Medium,-247.4,Medium Risk,Average
+Hawaiian Electric Industries Inc,NYSE,Utilities,585,348,310,1243,A – High,52.4,Low Risk,Excellent
+Guidewire Software Inc,NYSE,Technology,549,321,330,1200,A – High,168.7,Low Risk,Excellent
+Haemonetics Corp,NYSE,Health Care,448,303,305,1056,BBB – High,117.2,Medium Risk,Good
+Holly Energy Partners LP,NYSE,Energy ,511,225,215,951,BBB – High,66.0,Medium Risk,Average
+Hilton Grand Vacations Inc,NYSE,"Hotels, Restaurants & Leisure",305,288,250,843,BB – Medium,97.0,Medium Risk,Average
+Hillenbrand Inc,NYSE,Machinery,489,349,300,1138,BBB – High,90.0,Low Risk,Good
+Howard Hughes Corp,NYSE,Real Estate,500,300,300,1100,BBB – High,104.1,Low Risk,Good
+HubSpot Inc,NYSE,Technology,480,329,320,1129,BBB – High,97.7,Low Risk,Good
+Hess Midstream LP,NYSE,Energy ,307,257,255,819,BB – Medium,-66.0,Medium Risk,Average
+HEICO Corp,NYSE,Aerospace & Defense,225,203,205,633,B – Medium,0.0,High Risk,Poor
