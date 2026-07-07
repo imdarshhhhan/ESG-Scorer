@@ -1,7 +1,4 @@
-"""
-ESG Trust Score Predictor  — Streamlit Frontend
-Run: python -m streamlit run App.py
-"""
+
 
 import streamlit as st
 import pandas as pd
@@ -11,7 +8,6 @@ import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-# ── Page config ──────────────────────────────────────────────
 st.set_page_config(
     page_title="ESG Trust Score",
     page_icon="🌱",
@@ -19,7 +15,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# ── CSS ──────────────────────────────────────────────────────
+# CSS 
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
@@ -39,7 +35,7 @@ div[data-testid="collapsedControl"] { display: none; }
 header[data-testid="stHeader"] { background: transparent !important; height: 0 !important; }
 footer { display: none !important; }
 
-/* ── HEADER ── */
+#header
 .site-header {
     background: linear-gradient(180deg, #0D1526 0%, #070C1A 100%);
     border-bottom: 1px solid #1A2845;
@@ -92,7 +88,6 @@ footer { display: none !important; }
     letter-spacing: .06em;
 }
 
-/* ── HERO ── */
 .hero-wrap {
     background: radial-gradient(ellipse 80% 60% at 50% -10%, #0D2040 0%, #070C1A 70%);
     padding: 4rem 4rem 3rem;
@@ -177,7 +172,6 @@ footer { display: none !important; }
     text-transform: uppercase !important;
 }
 
-/* Button */
 .stButton > button {
     background: linear-gradient(135deg, #4A7DFF, #2E5BCC) !important;
     color: white !important;
@@ -196,13 +190,11 @@ footer { display: none !important; }
     box-shadow: 0 8px 24px rgba(74,125,255,.35) !important;
 }
 
-/* ── RESULTS SECTION ── */
 .results-wrap {
     padding: 0 4rem 3rem;
     background: #070C1A;
 }
 
-/* Company card */
 .company-card {
     background: #0D1526;
     border: 1px solid #1A2845;
@@ -234,7 +226,6 @@ footer { display: none !important; }
     font-size: 2.1rem; color: #4A7DFF; line-height: 1;
 }
 
-/* Metric rows */
 .metric-row {
     display: flex; justify-content: space-between; align-items: center;
     padding: .5rem 0; border-bottom: 1px solid #111D33;
@@ -246,7 +237,7 @@ footer { display: none !important; }
 }
 .metric-value { font-size: .9rem; color: #C8D8F8; font-weight: 500; text-align: right; }
 
-/* Tags */
+#Tags
 .tag { display:inline-block; font-size:.7rem; font-weight:600; padding:3px 10px; border-radius:20px; letter-spacing:.05em; }
 .tag-low    { background:#0A2D1A; color:#4ADE80; border:1px solid #1A5530; }
 .tag-medium { background:#2A1E00; color:#FBBF24; border:1px solid #4A3800; }
@@ -257,7 +248,7 @@ footer { display: none !important; }
 .tag-poor   { background:#2A1000; color:#FB923C; border:1px solid #4A2000; }
 .tag-mkt    { background:#160D3A; color:#A78BFA; border:1px solid #2A1A60; }
 
-/* Score bars */
+#Score bars
 .score-bar-wrap { margin: .25rem 0 .75rem; }
 .score-bar-label { display:flex; justify-content:space-between; font-size:.75rem; color:#5A7099; margin-bottom:5px; }
 .score-bar-track { background:#111D33; border-radius:6px; height:7px; overflow:hidden; }
@@ -271,7 +262,7 @@ footer { display: none !important; }
     text-transform:uppercase; letter-spacing:.12em; margin:1.1rem 0 .5rem;
 }
 
-/* Winner banner */
+# Winner banner 
 .winner-banner {
     background: linear-gradient(135deg, #0A1830 0%, #070C1A 100%);
     border: 1px solid #4A7DFF33;
@@ -286,7 +277,7 @@ footer { display: none !important; }
 }
 .winner-highlight { color: #4A7DFF; }
 
-/* ── FOOTER ── */
+#footer
 .site-footer {
     background: #0D1526;
     border-top: 1px solid #1A2845;
@@ -320,7 +311,7 @@ div[data-testid="column"] { padding: 0 0.5rem !important; }
 """, unsafe_allow_html=True)
 
 
-# ── Load data & model ────────────────────────────────────────
+#load and data model
 @st.cache_data
 def load_data():
     return pd.read_csv("display_data.csv")
@@ -346,7 +337,6 @@ model        = load_model()
 company_list = sorted(display_df["name"].tolist())
 
 
-# ── Helpers ──────────────────────────────────────────────────
 def predict_trust(env, soc, gov):
     pred  = model.predict([[env, soc, gov]])[0]
     trust = round((pred - 600) / (1536 - 600) * 100, 1)
@@ -429,9 +419,7 @@ def render_card(row, trust):
     </div>"""
 
 
-# ════════════════════════════════════════════════════════════
-#  HEADER
-# ════════════════════════════════════════════════════════════
+# header
 st.markdown("""
 <div class="site-header">
   <div class="header-logo">
@@ -447,9 +435,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ════════════════════════════════════════════════════════════
-#  HERO
-# ════════════════════════════════════════════════════════════
 st.markdown("""
 <div class="hero-wrap">
   <div class="hero-tag">🌍 ESG Intelligence Platform</div>
@@ -468,9 +453,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ════════════════════════════════════════════════════════════
-#  SEARCH  —  selectbox with live type-to-filter
-# ════════════════════════════════════════════════════════════
+# search
 st.markdown('<div class="search-wrap">', unsafe_allow_html=True)
 st.markdown('<div class="search-title">Select two companies to compare</div>', unsafe_allow_html=True)
 
@@ -490,9 +473,7 @@ with c3:
 st.markdown('</div>', unsafe_allow_html=True)
 
 
-# ════════════════════════════════════════════════════════════
-#  RESULTS
-# ════════════════════════════════════════════════════════════
+#  Results
 st.markdown('<div class="results-wrap">', unsafe_allow_html=True)
 
 if compare_btn:
@@ -572,10 +553,7 @@ if compare_btn:
 
 st.markdown('</div>', unsafe_allow_html=True)
 
-
-# ════════════════════════════════════════════════════════════
-#  FOOTER
-# ════════════════════════════════════════════════════════════
+#  Footer
 st.markdown("""
 <div class="site-footer">
   <div class="footer-left">
