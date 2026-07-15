@@ -1,10 +1,4 @@
-"""
-ESG Trust Score Predictor  — Streamlit Frontend
-Run: python -m streamlit run App.py
-"""
 
-import warnings
-warnings.filterwarnings("ignore")
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -13,7 +7,7 @@ import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-#Page config
+#Page config  
 st.set_page_config(
     page_title="ESG Trust Score",
     page_icon="🌱",
@@ -21,12 +15,12 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-#CSS
+#CSS      
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
 
-#    Base reset     
+#   Base reset    
 html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 #root > div:first-child { background: #070C1A; }
 .main { background: #070C1A !important; }
@@ -36,10 +30,12 @@ div[data-testid="collapsedControl"] { display: none; }
 header[data-testid="stHeader"] { background: transparent !important; height: 0 !important; }
 footer { display: none !important; }
 div[data-testid="stVerticalBlock"] { gap: 0 !important; }
-div[data-testid="column"] { padding: 0 0.3rem !important; }
+div[data-testid="column"] { padding: 0 0.3rem !important; border: none !important; box-shadow: none !important; }
+div[data-testid="column"] + div[data-testid="column"] { border-left: none !important; }
+[data-testid="stHorizontalBlock"] { gap: 0.6rem !important; }
 .stAlert { background: #0D1526 !important; border-color: #1A2845 !important; color: #C8D8F8 !important; border-radius: 10px !important; }
 
-#Header
+#   HEADER    
 .site-header {
     background: linear-gradient(180deg, #0D1526 0%, #070C1A 100%);
     border-bottom: 1px solid #1A2845;
@@ -69,6 +65,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     padding: 4px 12px; border-radius: 20px;
 }
 
+#   HERO    
 .hero-wrap {
     background: radial-gradient(ellipse 80% 60% at 50% -10%, #0D2040 0%, #070C1A 70%);
     padding: 3.5rem 3rem 2.5rem;
@@ -101,7 +98,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 .stat-num { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: #E8F0FE; }
 .stat-lbl { font-size: .72rem; color: #7B93C4; text-transform: uppercase; letter-spacing: .08em; margin-top: 2px; }
 
-#tabs 
+#   TABS    
 .stTabs [data-baseweb="tab-list"] {
     background: transparent !important;
     border-bottom: 1px solid #1A2845 !important;
@@ -119,11 +116,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     padding: .9rem 1.4rem !important;
     border-bottom: 2px solid transparent !important;
     font-family: 'DM Sans', sans-serif !important;
-    margin-bottom: 0 !important;
-    line-height: 1.2 !important;
-}
-            
-
+    margin-bottom: -1px !important;
 }
 .stTabs [aria-selected="true"] {
     color: #E8F0FE !important;
@@ -133,10 +126,21 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 .stTabs [data-baseweb="tab-panel"] {
     padding: 0 !important;
     background: #070C1A !important;
-    margin-top: 2px !important;
+    margin-top: 0 !important;
+    border-top: none !important;
+}
+# Extra override for newer Streamlit versions  
+.stTabs > div > div:last-child {
+    border-top: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+[data-testid="stTabs"] > div:last-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
-#search
+#SEARCH    
 .search-wrap {
     padding: 2rem 3rem;
     background: #070C1A;
@@ -147,7 +151,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     margin-bottom: 1.1rem; text-align: center;
 }
 
-#Selectbox
+#Selectbox    
 .stSelectbox > div > div {
     background: #0D1526 !important;
     border: 1.5px solid #1A2845 !important;
@@ -166,7 +170,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     text-transform: uppercase !important;
 }
 
-#buttons
+#Buttons — dimmed, not glowing    
 .stButton > button {
     background: rgba(74,125,255,0.18) !important;
     color: rgba(200,216,248,0.85) !important;
@@ -189,7 +193,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     box-shadow: 0 4px 14px rgba(74,125,255,.15) !important;
 }
 
-#Recent searches 
+#Recent searches    
 .history-wrap {
     padding: .6rem 3rem 0;
     background: #070C1A;
@@ -199,13 +203,13 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem;
 }
 
-#Results
+#RESULTS    
 .results-wrap {
     padding: 0 1.5rem 3rem;
     background: #070C1A;
 }
 
-#Company card 
+#Company card    
 .company-card {
     background: #0D1526;
     border: 1px solid #1A2845;
@@ -233,7 +237,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     font-size: 2rem; color: #4A7DFF; line-height: 1;
 }
 
-# Metric rows     
+#   Metric rows    
 .metric-row {
     display: flex; justify-content: space-between; align-items: center;
     padding: .45rem 0; border-bottom: 1px solid #0F1A2E;
@@ -245,7 +249,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 }
 .metric-value { font-size: .87rem; color: #C8D8F8; font-weight: 500; text-align: right; }
 
-#    Tags     
+#   Tags    
 .tag { display:inline-block; font-size:.68rem; font-weight:600; padding:2px 9px; border-radius:20px; letter-spacing:.04em; }
 .tag-low    { background: rgba(10,45,26,.8);  color:#4ADE80; border:1px solid rgba(26,85,48,.6); }
 .tag-medium { background: rgba(42,30,0,.8);   color:#FBBF24; border:1px solid rgba(74,56,0,.6); }
@@ -256,7 +260,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 .tag-poor   { background: rgba(42,16,0,.8);   color:#FB923C; border:1px solid rgba(74,32,0,.6); }
 .tag-mkt    { background: rgba(22,13,58,.8);  color:#A78BFA; border:1px solid rgba(42,26,96,.6); }
 
-# Score bars     
+#Score bars    
 .score-bar-wrap { margin: .2rem 0 .65rem; }
 .score-bar-label { display:flex; justify-content:space-between; font-size:.72rem; color:#4A6080; margin-bottom:4px; }
 .score-bar-track { background:#0F1A2E; border-radius:6px; height:6px; overflow:hidden; }
@@ -268,7 +272,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
     text-transform:uppercase; letter-spacing:.12em; margin:1rem 0 .4rem;
 }
 
-#Winner banner     
+#Winner banner    
 .winner-banner {
     background: linear-gradient(135deg, #0A1830 0%, #070C1A 100%);
     border: 1px solid rgba(74,125,255,.2);
@@ -278,7 +282,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 .winner-text { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: #E8F0FE; }
 .winner-highlight { color: #4A7DFF; }
 
-# Sector rows     
+#Sector rows    
 .rank-row {
     display: flex !important; flex-direction: row !important;
     align-items: center !important; flex-wrap: nowrap !important;
@@ -295,7 +299,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 .rank-bar-track { width: 100px; height: 5px; background: #0F1A2E; border-radius: 4px; overflow: hidden; margin: 0 .8rem; flex-shrink: 0; }
 .rank-bar-fill { height: 100%; border-radius: 4px; }
 
-#Sector benchmarks     
+# Sector benchmarks    
 .avg-line {
     background: #0A1830; border: 1px solid rgba(74,125,255,.2);
     border-radius: 10px; padding: .8rem 1.2rem;
@@ -312,7 +316,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 .sector-stat .n { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: #E8F0FE; }
 .sector-stat .l { font-size: .68rem; color: #4A6080; text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
 
-# Footer   
+#FOOTER    
 .site-footer {
     background: #0D1526; border-top: 1px solid #1A2845;
     padding: 2rem 3rem; display: flex;
@@ -328,7 +332,7 @@ div[data-testid="column"] { padding: 0 0.3rem !important; }
 """, unsafe_allow_html=True)
 
 
-#Load data & model                                         
+#Load data & model                     
 @st.cache_data
 def load_data():
     return pd.read_csv("display_data.csv")
@@ -354,18 +358,19 @@ model        = load_model()
 company_list = sorted(display_df["name"].tolist())
 
 
-
+#Helpers    
 def predict_trust(env, soc, gov):
-    inp   = pd.DataFrame([[env, soc, gov]],
-              columns=["environment_score", "social_score", "governance_score"])
-    pred  = model.predict(inp)[0]
+    pred  = model.predict(pd.DataFrame(
+                [[env, soc, gov]],
+                columns=["environment_score","social_score","governance_score"]
+            ))[0]
     trust = (pred - 600) / (1536 - 600) * 100
     if trust >= 80:
-        trust = trust * (1 - 0.07)
+        trust = trust * (1 - 0.05)
     elif trust >= 40:
-        trust = trust * (1 + 0.07)
+        trust = trust * (1 + 0.04)
     else:
-        trust = trust * (1 + 0.15)
+        trust = trust * (1 + 0.10)
     return round(max(0.0, min(100.0, trust)), 1)
 
 def get_company(name):
@@ -465,12 +470,14 @@ def get_all_trust_scores():
 all_df = get_all_trust_scores()
 
 
-#Session state                                             
+#   Session state      
 if "history" not in st.session_state:
     st.session_state.history = []
 
 
-#  Header
+#  
+#HEADER
+#  
 st.markdown("""
 <div class="site-header">
   <div class="header-logo">
@@ -486,7 +493,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
+#  
+#HERO
+#  
 st.markdown("""
 <div class="hero-wrap">
   <div class="hero-tag">🌍 ESG Intelligence Platform</div>
@@ -505,18 +514,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-  
-#tabs
-  
+# TABS
 tab1, tab2 = st.tabs(["🔍  Compare Companies", "🏭  Sector Filter & Benchmarking"])
 
 
-  
-#comparing
-  
+
 with tab1:
 
-    #    Search inputs                                         
+    # ── Search inputs  ────
     st.markdown('<div class="search-wrap">', unsafe_allow_html=True)
     st.markdown('<div class="search-title">Select two companies to compare</div>', unsafe_allow_html=True)
 
@@ -527,11 +532,11 @@ with tab1:
 
     c1, c2, c3 = st.columns([5, 5, 2])
     with c1:
-        company1 = st.selectbox("Firm 1", options=[""] + company_list,
+        company1 = st.selectbox("COMPANY ONE", options=[""] + company_list,
                                 format_func=lambda x: "Search company name..." if x == "" else x,
                                 index=idx1)
     with c2:
-        company2 = st.selectbox("Firm 2", options=[""] + company_list,
+        company2 = st.selectbox("COMPANY TWO", options=[""] + company_list,
                                 format_func=lambda x: "Search company name..." if x == "" else x,
                                 index=idx2)
     with c3:
@@ -540,7 +545,6 @@ with tab1:
 
     st.markdown('</div>', unsafe_allow_html=True)
 
-    #    Recent searches (below search bar, inside Tab 1)     ─
     if st.session_state.history:
         st.markdown('<div class="history-wrap">', unsafe_allow_html=True)
         st.markdown('<div class="history-label">🕘 Recent Searches</div>', unsafe_allow_html=True)
@@ -562,7 +566,6 @@ with tab1:
                 st.session_state.pop("prefill_c2", None)
                 st.rerun()
 
-    #  Results                                               
     st.markdown('<div class="results-wrap">', unsafe_allow_html=True)
 
     if compare_btn:
@@ -585,11 +588,7 @@ with tab1:
                 t2 = predict_trust(r2["environment_score"], r2["social_score"], r2["governance_score"])
 
                 st.markdown("<br>", unsafe_allow_html=True)
-                
-                col1, col2 = st.columns([1, 1], gap="small")
-
-
-
+                col1, col2 = st.columns(2, gap="large")
                 with col1:
                     st.markdown(render_card(r1, t1), unsafe_allow_html=True)
                 with col2:
@@ -654,19 +653,11 @@ with tab1:
                     margin=dict(t=50, b=20, l=20, r=20),
                     height=380
                 )
-
-
-
                 st.plotly_chart(fig, width='stretch')
-
-
-
 
     st.markdown('</div>', unsafe_allow_html=True)
 
 
-  
-#sector and benchmarking
   
 with tab2:
 
@@ -761,15 +752,12 @@ with tab2:
             margin=dict(l=20, r=60, t=50, b=20),
             height=max(350, min(15, total_cos) * 38)
         )
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, width='stretch')
 
     st.markdown('</div>', unsafe_allow_html=True)
 
 
-  
-#Footer
 
-  
 st.markdown("""
 <div class="site-footer">
   <div class="footer-left">
