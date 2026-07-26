@@ -44,28 +44,7 @@ Supports environmental responsibility by evaluating sustainability-related indic
 - 
 🤖 Machine Learning Workflow
 
-Dataset
-    │
-    ▼
-Data Cleaning
-    │
-    ▼
-Feature Engineering
-    │
-    ▼
-Train-Test Split
-    │
-    ▼
-Random Forest Regression
-    │
-    ▼
-Model Evaluation
-    │
-    ▼
-Model Deployment
-    │
-    ▼
-ESG Score Prediction
+Dataset -> Data Cleaning ->Feature Engineering -> Train-Test Split -> Random Forest Regression -> Model Evaluation -> Model Deployment -> ESG Score Prediction
 
 **Target Variable**
 --> ESG Score
