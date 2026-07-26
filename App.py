@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,7 +8,6 @@ import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-#Page config  
 st.set_page_config(
     page_title="ESG Trust Score",
     page_icon="🌱",
@@ -15,27 +15,44 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-#CSS      
+#CSS 
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
 
-#   Base reset    
-html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
-#root > div:first-child { background: #070C1A; }
-.main { background: #070C1A !important; }
-.block-container { padding: 0 !important; max-width: 100% !important; }
-section[data-testid="stSidebar"] { display: none; }
-div[data-testid="collapsedControl"] { display: none; }
-header[data-testid="stHeader"] { background: transparent !important; height: 0 !important; }
-footer { display: none !important; }
-div[data-testid="stVerticalBlock"] { gap: 0 !important; }
-div[data-testid="column"] { padding: 0 0.3rem !important; border: none !important; box-shadow: none !important; }
-div[data-testid="column"] + div[data-testid="column"] { border-left: none !important; }
-[data-testid="stHorizontalBlock"] { gap: 0.6rem !important; }
-.stAlert { background: #0D1526 !important; border-color: #1A2845 !important; color: #C8D8F8 !important; border-radius: 10px !important; }
+html, body { font-family: 'DM Sans', sans-serif !important; }
+body { background: #070C1A !important; }
 
-#   HEADER    
+# Main app background
+[data-testid="stAppViewContainer"] { background: #070C1A !important; }
+[data-testid="stAppViewBlockContainer"] {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+# Hide default Streamlit chrome  
+[data-testid="stHeader"] { display: none !important; }
+[data-testid="stSidebar"] { display: none !important; }
+[data-testid="stToolbar"] { display: none !important; }
+[data-testid="stDecoration"] { display: none !important; }
+[data-testid="stStatusWidget"] { display: none !important; }
+#MainMenu { display: none !important; }
+footer { display: none !important; }
+
+# Layout gaps  
+[data-testid="stVerticalBlock"] { gap: 0 !important; }
+[data-testid="column"] { padding: 0 0.3rem !important; }
+[data-testid="stHorizontalBlock"] { gap: 0.5rem !important; }
+
+# Alert  
+[data-testid="stAlert"] {
+    background: #0D1526 !important;
+    border-color: #1A2845 !important;
+    color: #C8D8F8 !important;
+    border-radius: 10px !important;
+}
+
+#HEADER    
 .site-header {
     background: linear-gradient(180deg, #0D1526 0%, #070C1A 100%);
     border-bottom: 1px solid #1A2845;
@@ -65,7 +82,6 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
     padding: 4px 12px; border-radius: 20px;
 }
 
-#   HERO    
 .hero-wrap {
     background: radial-gradient(ellipse 80% 60% at 50% -10%, #0D2040 0%, #070C1A 70%);
     padding: 3.5rem 3rem 2.5rem;
@@ -98,49 +114,47 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
 .stat-num { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: #E8F0FE; }
 .stat-lbl { font-size: .72rem; color: #7B93C4; text-transform: uppercase; letter-spacing: .08em; margin-top: 2px; }
 
-#   TABS    
-.stTabs [data-baseweb="tab-list"] {
-    background: transparent !important;
+#   TABS — 1.58 selectors    
+[data-testid="stTabs"] { background: #070C1A !important; }
+
+[data-baseweb="tab-list"] {
+    background: #070C1A !important;
     border-bottom: 1px solid #1A2845 !important;
     padding: 0 3rem !important;
     gap: 0 !important;
-    margin-bottom: 0 !important;
 }
-.stTabs [data-baseweb="tab"] {
+[data-baseweb="tab"] {
     background: transparent !important;
     color: #4A6080 !important;
     font-size: .8rem !important;
     font-weight: 600 !important;
     letter-spacing: .08em !important;
     text-transform: uppercase !important;
-    padding: .9rem 1.4rem !important;
-    border-bottom: 2px solid transparent !important;
+    padding: .85rem 1.4rem !important;
     font-family: 'DM Sans', sans-serif !important;
-    margin-bottom: -1px !important;
+    border-bottom: 2px solid transparent !important;
 }
-.stTabs [aria-selected="true"] {
+[data-baseweb="tab"]:focus,
+[data-baseweb="tab"]:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+[aria-selected="true"][data-baseweb="tab"] {
     color: #E8F0FE !important;
     border-bottom: 2px solid #4A7DFF !important;
     background: transparent !important;
 }
-.stTabs [data-baseweb="tab-panel"] {
+[data-baseweb="tab-panel"] {
     padding: 0 !important;
     background: #070C1A !important;
-    margin-top: 0 !important;
     border-top: none !important;
 }
-# Extra override for newer Streamlit versions  
-.stTabs > div > div:last-child {
-    border-top: none !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-[data-testid="stTabs"] > div:last-child {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+[data-testid="stTabsContent"] {
+    padding: 0 !important;
+    background: #070C1A !important;
 }
 
-#SEARCH    
+# SEARCH    
 .search-wrap {
     padding: 2rem 3rem;
     background: #070C1A;
@@ -151,49 +165,65 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
     margin-bottom: 1.1rem; text-align: center;
 }
 
-#Selectbox    
-.stSelectbox > div > div {
+#   Selectbox — 1.58 selectors    
+[data-testid="stSelectbox"] > div > div {
     background: #0D1526 !important;
     border: 1.5px solid #1A2845 !important;
     border-radius: 10px !important;
     color: #E8F0FE !important;
 }
-.stSelectbox > div > div:focus-within {
+[data-testid="stSelectbox"] > div > div:focus-within {
     border-color: #4A7DFF !important;
     box-shadow: 0 0 0 3px rgba(74,125,255,.1) !important;
 }
-.stSelectbox label {
+[data-testid="stSelectbox"] label,
+[data-testid="stSelectbox"] > label {
     color: #7B93C4 !important;
     font-size: .75rem !important;
     font-weight: 600 !important;
     letter-spacing: .08em !important;
     text-transform: uppercase !important;
 }
+# Dropdown options  
+[data-baseweb="popover"] ul {
+    background: #0D1526 !important;
+    border: 1px solid #1A2845 !important;
+}
+[data-baseweb="popover"] li {
+    color: #C8D8F8 !important;
+    background: #0D1526 !important;
+}
+[data-baseweb="popover"] li:hover {
+    background: #1A2845 !important;
+}
 
-#Buttons — dimmed, not glowing    
-.stButton > button {
-    background: rgba(74,125,255,0.18) !important;
+#   Buttons    
+[data-testid="stButton"] > button,
+button[kind="secondary"],
+button[kind="primary"] {
+    background: rgba(74,125,255,0.15) !important;
     color: rgba(200,216,248,0.85) !important;
-    border: 1px solid rgba(74,125,255,0.25) !important;
+    border: 1px solid rgba(74,125,255,0.22) !important;
     border-radius: 10px !important;
-    padding: .65rem 1.2rem !important;
-    font-size: .85rem !important;
+    padding: .6rem 1rem !important;
+    font-size: .83rem !important;
     font-weight: 500 !important;
     font-family: 'DM Sans', sans-serif !important;
     width: 100% !important;
     letter-spacing: .02em !important;
     transition: all .2s !important;
-    backdrop-filter: blur(4px) !important;
 }
-.stButton > button:hover {
-    background: rgba(74,125,255,0.32) !important;
-    border-color: rgba(74,125,255,0.45) !important;
+[data-testid="stButton"] > button:hover,
+button[kind="secondary"]:hover,
+button[kind="primary"]:hover {
+    background: rgba(74,125,255,0.28) !important;
+    border-color: rgba(74,125,255,0.4) !important;
     color: #E8F0FE !important;
     transform: translateY(-1px) !important;
-    box-shadow: 0 4px 14px rgba(74,125,255,.15) !important;
+    box-shadow: 0 4px 12px rgba(74,125,255,.12) !important;
 }
 
-#Recent searches    
+# Recent searches    
 .history-wrap {
     padding: .6rem 3rem 0;
     background: #070C1A;
@@ -203,13 +233,13 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
     text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem;
 }
 
-#RESULTS    
+#   RESULTS    
 .results-wrap {
     padding: 0 1.5rem 3rem;
     background: #070C1A;
 }
 
-#Company card    
+#   Company card    
 .company-card {
     background: #0D1526;
     border: 1px solid #1A2845;
@@ -260,7 +290,7 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
 .tag-poor   { background: rgba(42,16,0,.8);   color:#FB923C; border:1px solid rgba(74,32,0,.6); }
 .tag-mkt    { background: rgba(22,13,58,.8);  color:#A78BFA; border:1px solid rgba(42,26,96,.6); }
 
-#Score bars    
+#   Score bars    
 .score-bar-wrap { margin: .2rem 0 .65rem; }
 .score-bar-label { display:flex; justify-content:space-between; font-size:.72rem; color:#4A6080; margin-bottom:4px; }
 .score-bar-track { background:#0F1A2E; border-radius:6px; height:6px; overflow:hidden; }
@@ -272,7 +302,7 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
     text-transform:uppercase; letter-spacing:.12em; margin:1rem 0 .4rem;
 }
 
-#Winner banner    
+#   Winner banner    
 .winner-banner {
     background: linear-gradient(135deg, #0A1830 0%, #070C1A 100%);
     border: 1px solid rgba(74,125,255,.2);
@@ -282,7 +312,7 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
 .winner-text { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: #E8F0FE; }
 .winner-highlight { color: #4A7DFF; }
 
-#Sector rows    
+#   Sector rows    
 .rank-row {
     display: flex !important; flex-direction: row !important;
     align-items: center !important; flex-wrap: nowrap !important;
@@ -299,7 +329,7 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
 .rank-bar-track { width: 100px; height: 5px; background: #0F1A2E; border-radius: 4px; overflow: hidden; margin: 0 .8rem; flex-shrink: 0; }
 .rank-bar-fill { height: 100%; border-radius: 4px; }
 
-# Sector benchmarks    
+#   Sector benchmarks    
 .avg-line {
     background: #0A1830; border: 1px solid rgba(74,125,255,.2);
     border-radius: 10px; padding: .8rem 1.2rem;
@@ -316,7 +346,7 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
 .sector-stat .n { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: #E8F0FE; }
 .sector-stat .l { font-size: .68rem; color: #4A6080; text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
 
-#FOOTER    
+# FOOTER    
 .site-footer {
     background: #0D1526; border-top: 1px solid #1A2845;
     padding: 2rem 3rem; display: flex;
@@ -332,7 +362,7 @@ div[data-testid="column"] + div[data-testid="column"] { border-left: none !impor
 """, unsafe_allow_html=True)
 
 
-#Load data & model                     
+#   Load data & model                     
 @st.cache_data
 def load_data():
     return pd.read_csv("display_data.csv")
@@ -358,7 +388,7 @@ model        = load_model()
 company_list = sorted(display_df["name"].tolist())
 
 
-#Helpers    
+# Helpers                          
 def predict_trust(env, soc, gov):
     pred  = model.predict(pd.DataFrame(
                 [[env, soc, gov]],
@@ -470,14 +500,12 @@ def get_all_trust_scores():
 all_df = get_all_trust_scores()
 
 
-#   Session state      
+# Session state                       
 if "history" not in st.session_state:
     st.session_state.history = []
 
 
-#  
 #HEADER
-#  
 st.markdown("""
 <div class="site-header">
   <div class="header-logo">
@@ -492,10 +520,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-
-#  
+ 
 #HERO
-#  
 st.markdown("""
 <div class="hero-wrap">
   <div class="hero-tag">🌍 ESG Intelligence Platform</div>
@@ -514,14 +540,18 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# TABS
+#  
+#  TABS
+#  
 tab1, tab2 = st.tabs(["🔍  Compare Companies", "🏭  Sector Filter & Benchmarking"])
 
 
-
+#  
+#  TAB 1 — COMPARE
+#  
 with tab1:
 
-    # ── Search inputs  ────
+    #   Search inputs                     
     st.markdown('<div class="search-wrap">', unsafe_allow_html=True)
     st.markdown('<div class="search-title">Select two companies to compare</div>', unsafe_allow_html=True)
 
@@ -545,6 +575,7 @@ with tab1:
 
     st.markdown('</div>', unsafe_allow_html=True)
 
+    #   Recent searches (below search bar, inside Tab 1)   ─
     if st.session_state.history:
         st.markdown('<div class="history-wrap">', unsafe_allow_html=True)
         st.markdown('<div class="history-label">🕘 Recent Searches</div>', unsafe_allow_html=True)
@@ -566,6 +597,7 @@ with tab1:
                 st.session_state.pop("prefill_c2", None)
                 st.rerun()
 
+    #   Results                        
     st.markdown('<div class="results-wrap">', unsafe_allow_html=True)
 
     if compare_btn:
@@ -658,7 +690,8 @@ with tab1:
     st.markdown('</div>', unsafe_allow_html=True)
 
 
-  
+#  TAB 2 — SECTOR FILTER & BENCHMARKING
+
 with tab2:
 
     st.markdown('<div class="search-wrap">', unsafe_allow_html=True)
@@ -757,12 +790,13 @@ with tab2:
     st.markdown('</div>', unsafe_allow_html=True)
 
 
+#  FOOTER
 
 st.markdown("""
 <div class="site-footer">
   <div class="footer-left">
     <div class="footer-logo">🌱 ESG Trust Score</div>
-    <div class="footer-copy">© 2025 ESG Intelligence Platform · Built with Streamlit & RandomForest</div>
+    <div class="footer-copy">© 2026 ESG Intelligence Platform · Built with Streamlit & RandomForest</div>
   </div>
   <div class="footer-right">
     <div>
