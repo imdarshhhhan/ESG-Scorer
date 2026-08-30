@@ -240,12 +240,17 @@ button[kind="primary"]:hover {
 }
 
 #   Company card    
+
+
 .company-card {
-    background: #0D1526;
-    border: 1px solid #1A2845;
-    border-radius: 14px;
-    padding: 1.4rem;
+    background: #0D1526 !important;
+    border: 1px solid #1A2845 !important;
+    border-radius: 14px !important;
+    padding: 1.6rem !important;
+    margin-bottom: 1rem !important;
 }
+
+
 .card-header {
     display: flex; align-items: flex-start;
     justify-content: space-between;
@@ -273,11 +278,12 @@ button[kind="primary"]:hover {
     padding: .45rem 0; border-bottom: 1px solid #0F1A2E;
 }
 .metric-row:last-child { border-bottom: none; }
-.metric-label {
-    font-size: .72rem; color: #4A6080; font-weight: 500;
-    text-transform: uppercase; letter-spacing: .06em;
-}
-.metric-value { font-size: .87rem; color: #C8D8F8; font-weight: 500; text-align: right; }
+
+
+.metric-label { font-size: .82rem; color: #4A6080; font-weight: 500; text-transform: uppercase; letter-spacing: .04em; }
+.metric-value { font-size: .95rem; color: #C8D8F8; font-weight: 500; text-align: right; }
+
+
 
 #   Tags    
 .tag { display:inline-block; font-size:.68rem; font-weight:600; padding:2px 9px; border-radius:20px; letter-spacing:.04em; }
@@ -292,15 +298,20 @@ button[kind="primary"]:hover {
 
 #   Score bars    
 .score-bar-wrap { margin: .2rem 0 .65rem; }
-.score-bar-label { display:flex; justify-content:space-between; font-size:.72rem; color:#4A6080; margin-bottom:4px; }
+
+
+.score-bar-label { display:flex; justify-content:space-between; font-size:.82rem; color:#5A7099; margin-bottom:5px; }
+
+
 .score-bar-track { background:#0F1A2E; border-radius:6px; height:6px; overflow:hidden; }
 .score-bar-fill  { height:100%; border-radius:6px; }
 .diff-pos { color:#4ADE80; font-weight:500; }
 .diff-neg { color:#F87171; font-weight:500; }
-.section-label {
-    font-size:.63rem; color:#2A5ABA; font-weight:700;
-    text-transform:uppercase; letter-spacing:.12em; margin:1rem 0 .4rem;
-}
+
+
+.section-label { font-size:.72rem; color:#4A7DFF; font-weight:700; text-transform:uppercase; letter-spacing:.1em; margin:1.1rem 0 .5rem; }
+
+
 
 #   Winner banner    
 .winner-banner {
@@ -358,6 +369,24 @@ button[kind="primary"]:hover {
 .footer-right { display: flex; gap: 2rem; }
 .footer-col-title { font-size: .65rem; color: #4A7DFF; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; margin-bottom: .4rem; }
 .footer-col-item { font-size: .75rem; color: #7B93C4; margin-bottom: .18rem; }
+
+
+/* Force card visibility */
+div[data-testid="stMarkdownContainer"] > div > .company-card {
+    background: #0D1526 !important;
+    border: 1px solid #1A2845 !important;
+    border-radius: 14px !important;
+    padding: 1.6rem !important;
+}
+
+/* Fix left margin */
+.main .block-container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    max-width: 100% !important;
+}
+
+
 </style>
 """, unsafe_allow_html=True)
 
