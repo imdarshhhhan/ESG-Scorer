@@ -25,14 +25,14 @@ Supports environmental responsibility by evaluating sustainability-related indic
 
 🚀 Features
 
-- 🌱 ESG score prediction using Machine Learning
-- 📊 Data preprocessing and feature engineering
-- 🤖 Random Forest Regression model
-- 📈 Interactive web interface
-- 📉 Real-time ESG score prediction
-- 💡 Sustainability assessment support
+- ESG score prediction using Machine Learning
+- Data preprocessing and feature engineering
+- Random Forest Regression model
+- Interactive web interface
+- Real-time ESG score prediction
+- Sustainability assessment support
 
- 🛠️ Tech Stack
+ Tech Stack
 
 - Python
 - Pandas
@@ -40,9 +40,8 @@ Supports environmental responsibility by evaluating sustainability-related indic
 - Scikit-learn
 - FastAPI
 - Random Forest(Model)
-- CSS
 - 
-🤖 Machine Learning Workflow
+Machine Learning Workflow
 
 Dataset -> Data Cleaning ->Feature Engineering -> Train-Test Split -> Random Forest Regression -> Model Evaluation -> Model Deployment -> ESG Score Prediction
 
