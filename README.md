@@ -1,53 +1,70 @@
-# ESG Trust Score (FastAPI)
+Project Overview
 
-The ESG Scorer app, moved from Streamlit to FastAPI. Same data, same Random Forest model,
-same trust score maths and the same look.
+Environmental, Social, and Governance (ESG) factors have become essential indicators for evaluating an organization's sustainability, ethical practices, and long-term value creation. This project leverages Artificial Intelligence (AI) and Machine Learning (ML) to predict ESG scores using sustainability-related indicators, enabling organizations and stakeholders to assess environmental responsibility, social impact, and governance performance through a data-driven approach.
 
-## Run it
+The application analyzes multiple ESG parameters, processes them using a trained machine learning model, and generates an overall ESG score, providing users with a simple and efficient tool for sustainability assessment and informed decision-making.
 
-```bash
-python -m venv venv
-venv\Scripts\activate          # Windows   (Mac/Linux: source venv/bin/activate)
-pip install -r requirements.txt
-python main.py                 # or: uvicorn main:app --reload
-```
 
-Open http://127.0.0.1:8000
+Problem Statement
 
-## Folder structure
+Evaluating an organization's ESG performance often involves analyzing large volumes of environmental, social, and governance data, making the assessment process complex, time-consuming, and prone to inconsistency. Many organizations lack accessible tools that can quickly estimate ESG performance using available sustainability indicators.
 
-```
-esg-scorer-fastapi/
-├── main.py                      # creates the app, mounts static files, adds routers
-├── requirements.txt
-├── data/                        # display_data.csv, Global_data_preprocessed.csv, model.pkl
-└── app/
-    ├── config.py                # paths + all the fixed numbers in one place
-    ├── templating.py            # Jinja2 setup + small alert helper
-    ├── routers/                 # URL layer (thin, no logic)
-    │   ├── pages.py             # GET /          -> full page
-    │   ├── compare.py           # GET /compare   -> comparison results (HTML piece)
-    │   ├── sector.py            # GET /sector    -> sector results (HTML piece)
-    │   └── assets.py            # GET /vendor/plotly.min.js
-    ├── services/                # all the real logic
-    │   ├── data_loader.py       # load csv + load/train model (cached)
-    │   ├── trust_score.py       # model prediction -> 0-100 trust score
-    │   ├── card_builder.py      # one company -> data for its card
-    │   ├── company_service.py   # find companies, build the comparison
-    │   ├── sector_service.py    # sector stats + ranked list
-    │   └── chart_service.py     # plotly figures
-    ├── templates/               # html only (index, partials/, macros/)
-    └── static/
-        ├── css/                 # one css file per section of the page
-        └── js/                  # dropdown, tabs, history, compare, sector, charts
-```
+This project addresses this challenge by developing an AI-powered ESG Scoring System that predicts ESG scores from sustainability-related features, enabling users to perform faster, more consistent, and data-driven sustainability evaluations.
 
-## How a request flows
 
-1. Browser opens `/` -> `pages.py` renders the full page (header, hero, tabs, footer).
-2. User clicks **Compare** -> `compare.js` calls `/compare?company1=..&company2=..`
-   -> `compare.py` -> `company_service` -> returns the cards, winner banner and chart as an HTML piece.
-3. User picks a sector -> `sector.js` calls `/sector?name=..` -> same idea.
-4. Charts are built in Python (plotly), sent as JSON, and drawn in the browser by `charts.js`.
+ Sustainable Development Goals (SDGs)
 
-Interactive API docs are available at http://127.0.0.1:8000/docs
+This project aligns with the following United Nations Sustainable Development Goals:
+
+SDG 9 – Industry, Innovation and Infrastructure
+Promotes innovation through AI-driven sustainability assessment.
+ SDG 12 – Responsible Consumption and Production
+Encourages organizations to monitor and improve sustainable business practices.
+ SDG 13 – Climate Action
+Supports environmental responsibility by evaluating sustainability-related indicators that contribute to climate-conscious decision making.
+
+Features
+
+- ESG score prediction using Machine Learning
+- Data preprocessing and feature engineering
+- Random Forest Regression model
+- Interactive web interface
+- Real-time ESG score prediction
+- Sustainability assessment support
+
+ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- FastAPI
+- Random Forest(Model)
+- 
+Machine Learning Workflow
+
+Dataset -> Data Cleaning ->Feature Engineering -> Train-Test Split -> Random Forest Regression -> Model Evaluation -> Model Deployment -> ESG Score Prediction
+
+**Target Variable**
+--> ESG Score
+
+| Machine Learning Model |
+
+#Algorithm
+Random Forest Regressor
+
+#Evaluation Metrics
+
+- R² Score
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+ 
+ Author
+
+Darshan
+
+Master of Computer Applications (MCA)
+Passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and building impactful software solutions.
+
+ If you found this project useful, consider giving it a **Star**!
