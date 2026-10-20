@@ -1,7 +1,6 @@
 from app import config
 from app.services.data_loader import loadDisplayData
 
-# which css class each label should get (the styles live in static/css/cards.css)
 riskClasses = {"Low Risk": "tag-low", "Medium Risk": "tag-medium", "High Risk": "tag-high"}
 performanceClasses = {
     "Excellent": "tag-excel",

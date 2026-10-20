@@ -55,8 +55,7 @@
 
 .diff-pos { color: #4ADE80; font-weight: 500; }
 .diff-neg { color: #F87171; font-weight: 500; }
-
-/* ---------- tags ---------- */
+/* tags*/
 .tag {
   display: inline-block; font-size: .68rem; font-weight: 600;
   padding: 2px 9px; border-radius: 20px; letter-spacing: .04em;
@@ -71,7 +70,6 @@
 .tag-poor   { background: rgba(42,16,0,.8);   color: #FB923C; border: 1px solid rgba(74,32,0,.6); }
 .tag-mkt    { background: rgba(22,13,58,.8);  color: #A78BFA; border: 1px solid rgba(42,26,96,.6); }
 
-/* ---------- score bars ---------- */
 .score-bar-wrap { margin: .2rem 0 .65rem; }
 
 .score-bar-label {
@@ -88,7 +86,6 @@
 .fill-good   { background: #4ADE80; }
 .fill-bad    { background: #F87171; }
 
-/* ---------- sector rank text ---------- */
 .tone-good { color: #4ADE80; font-weight: 600; }
 .tone-mid  { color: #FBBF24; font-weight: 600; }
 .tone-low  { color: #F87171; font-weight: 600; }

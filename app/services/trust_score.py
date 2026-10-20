@@ -36,7 +36,7 @@ def predictTrust(environmentScore, socialScore, governanceScore):
 
 @lru_cache(maxsize=1)
 def getAllCompaniesWithTrust():
-    """Every company with its trust score, calculated once and kept in memory."""
+    #Every company with its trust score, calculated once and kept in memory
     allDf = loadDisplayData().copy()
     allDf["trust_score"] = predictTrustForFrame(allDf)
     return allDf

@@ -4,7 +4,6 @@ from app import config
 
 
 def figureToJson(figure):
-    # "<" is escaped so a company name can never close the <script> tag it is embedded in
     return figure.to_json().replace("<", "\\u003c")
 
 

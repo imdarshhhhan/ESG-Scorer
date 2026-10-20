@@ -6,8 +6,7 @@ from fastapi.responses import FileResponse
 
 router = APIRouter()
 
-# plotly.js ships inside the python plotly package, so the browser and the
-# server always use matching versions (and nothing is loaded from a CDN)
+
 plotlyJsPath = Path(plotly.__file__).parent / "package_data" / "plotly.min.js"
 
 

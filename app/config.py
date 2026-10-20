@@ -1,18 +1,18 @@
 from pathlib import Path
 
-# ---------- folders ----------
+#   folders  
 baseDir = Path(__file__).resolve().parent.parent
 appDir = baseDir / "app"
 dataDir = baseDir / "data"
 templatesDir = appDir / "templates"
 staticDir = appDir / "static"
 
-# ---------- data files ----------
+#   data files  
 displayDataPath = dataDir / "display_data.csv"
 preprocessedDataPath = dataDir / "Global_data_preprocessed.csv"
 modelPath = dataDir / "model.pkl"
 
-# ---------- model settings ----------
+#   model settings  
 featureColumns = ["environment_score", "social_score", "governance_score"]
 targetColumn = "total_score"
 
@@ -25,7 +25,7 @@ maxEnvironmentScore = 719
 maxSocialScore = 667
 maxGovernanceScore = 475
 
-# ---------- page settings ----------
+#   page settings  
 defaultSector = "Technology"
 topCompaniesLimit = 15
 
