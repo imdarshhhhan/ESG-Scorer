@@ -1,0 +1,94 @@
+.company-card {
+  background: #0D1526;
+  border: 1px solid #1A2845;
+  border-radius: 14px;
+  padding: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  display: flex; align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.2rem; padding-bottom: 1rem;
+  border-bottom: 1px solid #1A2845;
+}
+
+.company-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem; color: #E8F0FE;
+  line-height: 1.25; max-width: 65%;
+}
+
+.trust-badge { text-align: right; }
+
+.trust-label {
+  font-size: .62rem; color: #5A7099;
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: 2px;
+}
+
+.trust-value {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem; color: #4A7DFF; line-height: 1;
+}
+
+.section-label {
+  font-size: .72rem; color: #4A7DFF; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .1em; margin: 1.1rem 0 .5rem;
+}
+
+/* ---------- metric rows ---------- */
+.metric-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .45rem 0; border-bottom: 1px solid #0F1A2E;
+}
+
+.metric-row:last-child { border-bottom: none; }
+
+.metric-label {
+  font-size: .82rem; color: #4A6080; font-weight: 500;
+  text-transform: uppercase; letter-spacing: .04em;
+}
+
+.metric-value { font-size: .95rem; color: #C8D8F8; font-weight: 500; text-align: right; }
+.metric-value.is-sector { max-width: 58%; font-size: .85rem; }
+.metric-value.is-total { color: #E8F0FE; font-size: 1rem; font-weight: 700; }
+
+.diff-pos { color: #4ADE80; font-weight: 500; }
+.diff-neg { color: #F87171; font-weight: 500; }
+
+/* ---------- tags ---------- */
+.tag {
+  display: inline-block; font-size: .68rem; font-weight: 600;
+  padding: 2px 9px; border-radius: 20px; letter-spacing: .04em;
+}
+
+.tag-low    { background: rgba(10,45,26,.8);  color: #4ADE80; border: 1px solid rgba(26,85,48,.6); }
+.tag-medium { background: rgba(42,30,0,.8);   color: #FBBF24; border: 1px solid rgba(74,56,0,.6); }
+.tag-high   { background: rgba(42,10,10,.8);  color: #F87171; border: 1px solid rgba(74,21,21,.6); }
+.tag-excel  { background: rgba(10,29,58,.8);  color: #60A5FA; border: 1px solid rgba(26,53,96,.6); }
+.tag-good   { background: rgba(10,42,30,.8);  color: #34D399; border: 1px solid rgba(26,74,53,.6); }
+.tag-avg    { background: rgba(42,42,10,.8);  color: #FCD34D; border: 1px solid rgba(74,74,24,.6); }
+.tag-poor   { background: rgba(42,16,0,.8);   color: #FB923C; border: 1px solid rgba(74,32,0,.6); }
+.tag-mkt    { background: rgba(22,13,58,.8);  color: #A78BFA; border: 1px solid rgba(42,26,96,.6); }
+
+/* ---------- score bars ---------- */
+.score-bar-wrap { margin: .2rem 0 .65rem; }
+
+.score-bar-label {
+  display: flex; justify-content: space-between;
+  font-size: .82rem; color: #5A7099; margin-bottom: 5px;
+}
+
+.score-bar-track { background: #0F1A2E; border-radius: 6px; height: 6px; overflow: hidden; }
+.score-bar-fill { height: 100%; border-radius: 6px; }
+
+.fill-env    { background: #34D399; }
+.fill-social { background: #60A5FA; }
+.fill-gov    { background: #A78BFA; }
+.fill-good   { background: #4ADE80; }
+.fill-bad    { background: #F87171; }
+
+/* ---------- sector rank text ---------- */
+.tone-good { color: #4ADE80; font-weight: 600; }
+.tone-mid  { color: #FBBF24; font-weight: 600; }
+.tone-low  { color: #F87171; font-weight: 600; }

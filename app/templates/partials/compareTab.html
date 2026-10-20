@@ -1,0 +1,17 @@
+{% from "macros/comboBox.html" import comboBox %}
+
+<div class="search-wrap">
+  <div class="search-title">Select two companies to compare</div>
+  <div class="search-row">
+    {{ comboBox("companyOne", "COMPANY ONE", companyNames, "", "Search company name...") }}
+    {{ comboBox("companyTwo", "COMPANY TWO", companyNames, "", "Search company name...") }}
+    <button class="btn" id="compareButton" type="button">Compare →</button>
+  </div>
+</div>
+
+<div class="history-wrap" id="historyWrap" hidden>
+  <div class="history-label">🕘 Recent Searches</div>
+  <div class="history-row" id="historyRow"></div>
+</div>
+
+<div class="results-wrap" id="compareResults"></div>

@@ -1,0 +1,37 @@
+.site-header {
+  background: linear-gradient(180deg, #0D1526 0%, #070C1A 100%);
+  border-bottom: 1px solid #1A2845;
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-logo { display: flex; align-items: center; gap: 10px; }
+
+.logo-dot {
+  width: 32px; height: 32px;
+  background: linear-gradient(135deg, #4A7DFF, #34D399);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+}
+
+.logo-text { font-family: 'DM Serif Display', serif; font-size: 1.2rem; color: #E8F0FE; }
+
+.header-nav { display: flex; gap: 2rem; align-items: center; }
+
+.nav-link {
+  font-size: .8rem; color: #7B93C4; font-weight: 500;
+  text-transform: uppercase; letter-spacing: .08em;
+}
+
+.header-badge {
+  background: #0D2040; border: 1px solid rgba(74,125,255,.3);
+  color: #60A5FA; font-size: .7rem; font-weight: 600;
+  padding: 4px 12px; border-radius: 20px;
+}

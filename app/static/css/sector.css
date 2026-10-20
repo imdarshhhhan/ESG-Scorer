@@ -1,0 +1,75 @@
+.sector-stats {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 8px; margin: 1.2rem 0;
+}
+
+.sector-stat {
+  background: #0D1526; border: 1px solid #1A2845;
+  border-radius: 10px; padding: .65rem .9rem;
+}
+
+.sector-stat .n { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: #E8F0FE; }
+.sector-stat .n.is-blue  { color: #4A7DFF; }
+.sector-stat .n.is-green { color: #4ADE80; }
+.sector-stat .n.is-red   { color: #F87171; }
+
+.sector-stat .l {
+  font-size: .68rem; color: #4A6080; text-transform: uppercase;
+  letter-spacing: .07em; margin-top: 2px;
+}
+
+.avg-line {
+  background: #0A1830; border: 1px solid rgba(74,125,255,.2);
+  border-radius: 10px; padding: .8rem 1.2rem;
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avg-label {
+  font-size: .75rem; color: #7B93C4; text-transform: uppercase;
+  letter-spacing: .07em; font-weight: 600;
+}
+
+.avg-value { font-family: 'DM Serif Display', serif; font-size: 1.3rem; color: #4A7DFF; }
+
+/* ---------- ranked list ---------- */
+.rank-list { background: #070C1A; border-radius: 12px; }
+
+.rank-row {
+  display: flex; flex-direction: row; align-items: center; flex-wrap: nowrap;
+  padding: .6rem 1rem; border-bottom: 1px solid #0F1A2E;
+  border-radius: 6px; transition: background .15s; width: 100%;
+}
+
+.rank-row:hover { background: #0D1526; }
+
+.rank-num {
+  font-family: 'DM Serif Display', serif; font-size: 1rem;
+  color: #2A4060; min-width: 36px; flex-shrink: 0;
+}
+
+.rank-num.gold   { color: #FBBF24; }
+.rank-num.silver { color: #94A3B8; }
+.rank-num.bronze { color: #C07B4A; }
+
+.rank-name {
+  flex: 1 1 auto; font-size: .87rem; color: #C8D8F8; font-weight: 500;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-right: .5rem;
+}
+
+.rank-bar-track {
+  width: 100px; height: 5px; background: #0F1A2E; border-radius: 4px;
+  overflow: hidden; margin: 0 .8rem; flex-shrink: 0;
+}
+
+.rank-bar-fill { height: 100%; border-radius: 4px; }
+
+.rank-diff {
+  min-width: 100px; text-align: right; font-size: .8rem;
+  color: #C8D8F8; font-weight: 500;
+}
+
+.rank-score {
+  font-family: 'DM Serif Display', serif; font-size: 1rem; color: #4A7DFF;
+  min-width: 48px; text-align: right; flex-shrink: 0;
+}

@@ -1,0 +1,59 @@
+{% macro companyCard(card) %}
+<div class="company-card">
+  <div class="card-header">
+    <div class="company-name">{{ card.name }}</div>
+    <div class="trust-badge">
+      <div class="trust-label">Trust Score</div>
+      <div class="trust-value">{{ card.trust }}</div>
+    </div>
+  </div>
+
+  <div class="section-label">📋 Identity</div>
+  <div class="metric-row">
+    <span class="metric-label">Market Type</span>
+    <span class="metric-value"><span class="tag tag-mkt">{{ card.marketType }}</span></span>
+  </div>
+  <div class="metric-row">
+    <span class="metric-label">Sector</span>
+    <span class="metric-value is-sector">{{ card.sector }}</span>
+  </div>
+
+  <div class="section-label">📊 ESG Scores</div>
+  {% for bar in card.bars %}
+  <div class="score-bar-wrap">
+    <div class="score-bar-label"><span>{{ bar.label }}</span><span>{{ bar.value }}</span></div>
+    <div class="score-bar-track">
+      <div class="score-bar-fill {{ bar.colorClass }}" style="width: {{ bar.percent }}%"></div>
+    </div>
+  </div>
+  {% endfor %}
+  <div class="metric-row">
+    <span class="metric-label">Total ESG Score</span>
+    <span class="metric-value is-total">{{ card.totalEsgScore }}</span>
+  </div>
+  <div class="metric-row">
+    <span class="metric-label">Sector Avg Diff</span>
+    <span class="metric-value"><span class="{{ card.diffClass }}">{{ card.sectorAvgDiff }}</span></span>
+  </div>
+
+  <div class="section-label">🏷 Assessment</div>
+  <div class="metric-row">
+    <span class="metric-label">Grade Impact</span>
+    <span class="metric-value">{{ card.gradeImpact }}</span>
+  </div>
+  <div class="metric-row">
+    <span class="metric-label">Risk Level</span>
+    <span class="metric-value"><span class="tag {{ card.riskClass }}">{{ card.riskLevel }}</span></span>
+  </div>
+  <div class="metric-row">
+    <span class="metric-label">Performance</span>
+    <span class="metric-value"><span class="tag {{ card.performanceClass }}">{{ card.performanceLevel }}</span></span>
+  </div>
+  <div class="metric-row">
+    <span class="metric-label">Sector Rank</span>
+    <span class="metric-value">
+      <span class="{{ card.sectorRank.toneClass }}">Better than {{ card.sectorRank.percent }}% in {{ card.sectorRank.sector }}</span>
+    </span>
+  </div>
+</div>
+{% endmacro %}

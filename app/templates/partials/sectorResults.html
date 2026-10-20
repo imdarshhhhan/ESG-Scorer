@@ -1,0 +1,30 @@
+{% set view = sectorView %}
+
+<div class="sector-stats">
+  <div class="sector-stat"><div class="n">{{ view.totalCompanies }}</div><div class="l">Companies</div></div>
+  <div class="sector-stat"><div class="n is-blue">{{ view.avgTrust }}</div><div class="l">Avg Trust Score</div></div>
+  <div class="sector-stat"><div class="n is-green">{{ view.topTrust }}</div><div class="l">Highest Score</div></div>
+  <div class="sector-stat"><div class="n is-red">{{ view.lowTrust }}</div><div class="l">Lowest Score</div></div>
+</div>
+
+<div class="avg-line">
+  <span class="avg-label">📊 Sector Benchmark — {{ view.sectorName }} Average Trust Score</span>
+  <span class="avg-value">{{ view.avgTrust }} / 100</span>
+</div>
+
+<div class="rank-list">
+  {% for row in view.rankRows %}
+  <div class="rank-row">
+    <span class="rank-num {{ row.medalClass }}">#{{ row.rank }}</span>
+    <span class="rank-name">{{ row.name }}</span>
+    <div class="rank-bar-track">
+      <div class="rank-bar-fill {{ row.barClass }}" style="width: {{ row.barPercent }}%"></div>
+    </div>
+    <span class="rank-diff"><span class="{{ row.diffClass }}">{{ row.diffText }}</span> vs avg</span>
+    <span class="rank-score">{{ row.trust }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="chart-box" data-chart></div>
+<script type="application/json" data-chart-data>{{ view.chartJson | safe }}</script>

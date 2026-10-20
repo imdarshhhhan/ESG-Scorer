@@ -1,0 +1,12 @@
+{% from "macros/comboBox.html" import comboBox %}
+
+<div class="search-wrap">
+  <div class="search-title">Select a sector to explore all companies and benchmarks</div>
+  <div class="search-row is-single">
+    {{ comboBox("sectorSelect", "CHOOSE SECTOR", sectorNames, defaultSector) }}
+  </div>
+</div>
+
+<div class="results-wrap" id="sectorResults">
+  {% include "partials/sectorResults.html" %}
+</div>

@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="footer-left">
+    <div class="footer-logo">🌱 ESG Trust Score</div>
+    <div class="footer-copy">© 2026 ESG Intelligence Platform · Built with FastAPI &amp; RandomForest</div>
+  </div>
+  <div class="footer-right">
+    <div>
+      <div class="footer-col-title">Data</div>
+      <div class="footer-col-item">{{ companyCount }} Global Companies</div>
+      <div class="footer-col-item">{{ sectorCount }} Industry Sectors</div>
+      <div class="footer-col-item">NYSE · NASDAQ</div>
+    </div>
+    <div>
+      <div class="footer-col-title">Model</div>
+      <div class="footer-col-item">Random Forest Regressor</div>
+      <div class="footer-col-item">R² Accuracy: {{ modelAccuracy }}</div>
+      <div class="footer-col-item">3 ESG Sub-scores</div>
+    </div>
+    <div>
+      <div class="footer-col-title">Metrics</div>
+      <div class="footer-col-item">Trust Score (0–100)</div>
+      <div class="footer-col-item">Risk · Performance</div>
+      <div class="footer-col-item">Sector Comparison</div>
+    </div>
+  </div>
+</footer>

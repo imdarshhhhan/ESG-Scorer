@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+jinja2
+numpy==2.4.3
+pandas==3.0.2
+plotly==6.7.0
+scikit-learn==1.8.0

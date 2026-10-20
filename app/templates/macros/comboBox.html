@@ -1,0 +1,17 @@
+{# A small searchable dropdown. The behaviour lives in static/js/comboBox.js #}
+{% macro comboBox(id, label, options, selected="", placeholder="") %}
+<div class="field">
+  <label class="field-label" for="{{ id }}Input">{{ label }}</label>
+  <div class="combo" id="{{ id }}" data-value="{{ selected }}" data-placeholder="{{ placeholder }}">
+    <input class="combo-input" id="{{ id }}Input" type="text" autocomplete="off"
+           role="combobox" aria-expanded="false" placeholder="{{ placeholder }}">
+    <span class="combo-arrow" aria-hidden="true">▾</span>
+    <ul class="combo-list" role="listbox" hidden>
+      {% for option in options %}
+      <li role="option" data-value="{{ option }}">{{ option }}</li>
+      {% endfor %}
+      <li class="combo-empty" hidden>No results</li>
+    </ul>
+  </div>
+</div>
+{% endmacro %}

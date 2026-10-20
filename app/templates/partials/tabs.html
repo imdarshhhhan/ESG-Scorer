@@ -1,0 +1,12 @@
+<div class="tabs-bar" role="tablist">
+  <button class="tab-button is-active" type="button" role="tab" data-tab="compareTab">🔍 Compare Companies</button>
+  <button class="tab-button" type="button" role="tab" data-tab="sectorTab">🏭 Sector Filter &amp; Benchmarking</button>
+</div>
+
+<section class="tab-panel" id="compareTab" role="tabpanel">
+  {% include "partials/compareTab.html" %}
+</section>
+
+<section class="tab-panel" id="sectorTab" role="tabpanel" hidden>
+  {% include "partials/sectorTab.html" %}
+</section>

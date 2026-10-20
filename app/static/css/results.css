@@ -1,0 +1,32 @@
+.results-wrap { padding: 0 1.5rem 3rem; background: #070C1A; }
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1.2rem;
+}
+
+.alert {
+  margin-top: 1.2rem;
+  padding: 1rem 1.2rem;
+  background: #0D1526;
+  border: 1px solid #1A2845;
+  border-radius: 10px;
+  color: #C8D8F8;
+  font-size: .9rem;
+}
+
+.winner-banner {
+  background: linear-gradient(135deg, #0A1830 0%, #070C1A 100%);
+  border: 1px solid rgba(74,125,255,.2);
+  border-radius: 12px;
+  padding: 1.1rem 2rem;
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.winner-text { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: #E8F0FE; }
+.winner-highlight { color: #4A7DFF; }
+
+.chart-box { width: 100%; margin-top: 1.2rem; }

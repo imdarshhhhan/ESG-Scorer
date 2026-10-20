@@ -1,0 +1,23 @@
+{% from "macros/companyCard.html" import companyCard %}
+
+<div class="cards-grid">
+  {% for card in comparison.cards %}
+    {{ companyCard(card) }}
+  {% endfor %}
+</div>
+
+{% set banner = comparison.banner %}
+<div class="winner-banner">
+  <div class="winner-text">
+    {% if banner.isTie %}
+      Both companies are <span class="winner-highlight">tied</span> on Trust Score!
+    {% else %}
+      <span class="winner-highlight">{{ banner.winnerName }}</span> leads with a Trust Score of
+      <span class="winner-highlight">{{ banner.winnerScore }}</span> —
+      {{ banner.gap }} points ahead of {{ banner.loserName }} ({{ banner.loserScore }})
+    {% endif %}
+  </div>
+</div>
+
+<div class="chart-box" data-chart></div>
+<script type="application/json" data-chart-data>{{ comparison.chartJson | safe }}</script>

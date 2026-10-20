@@ -1,0 +1,15 @@
+.history-wrap { padding: .6rem 3rem 0; background: #070C1A; }
+
+.history-label {
+  font-size: .68rem; color: #4A6080; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem;
+}
+
+.history-row { display: flex; gap: .5rem; }
+
+.history-row .btn {
+  flex: 1 1 0;
+  min-width: 0;
+  height: auto;
+  min-height: 2.6rem;
+}

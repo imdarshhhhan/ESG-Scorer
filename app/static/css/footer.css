@@ -1,0 +1,22 @@
+.site-footer {
+  background: #0D1526; border-top: 1px solid #1A2845;
+  padding: 2rem 3rem; display: flex;
+  justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+
+.footer-logo {
+  font-family: 'DM Serif Display', serif; font-size: 1rem;
+  color: #E8F0FE; margin-bottom: .25rem;
+}
+
+.footer-copy { font-size: .75rem; color: #4A6080; }
+
+.footer-right { display: flex; gap: 2rem; }
+
+.footer-col-title {
+  font-size: .65rem; color: #4A7DFF; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .4rem;
+}
+
+.footer-col-item { font-size: .75rem; color: #7B93C4; margin-bottom: .18rem; }

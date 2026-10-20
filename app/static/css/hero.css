@@ -1,0 +1,40 @@
+.hero-wrap {
+  background: radial-gradient(ellipse 80% 60% at 50% -10%, #0D2040 0%, #070C1A 70%);
+  padding: 3.5rem 3rem 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid #1A2845;
+}
+
+.hero-tag {
+  display: inline-block; background: #0D2040;
+  border: 1px solid rgba(74,125,255,.3); color: #60A5FA;
+  font-size: .7rem; font-weight: 600; padding: 4px 14px;
+  border-radius: 20px; letter-spacing: .1em;
+  margin-bottom: 1.1rem; text-transform: uppercase;
+}
+
+.hero-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3.2rem; color: #E8F0FE;
+  line-height: 1.1; margin-bottom: .7rem;
+}
+
+.hero-title span { color: #4A7DFF; }
+
+.hero-sub {
+  font-size: .95rem; color: #7B93C4;
+  max-width: 500px; margin: 0 auto 2rem; line-height: 1.6;
+}
+
+.hero-stats {
+  display: flex; justify-content: center; gap: 3rem;
+  margin-top: 1.8rem; padding-top: 1.8rem;
+  border-top: 1px solid #1A2845;
+}
+
+.stat-item { text-align: center; }
+.stat-num { font-family: 'DM Serif Display', serif; font-size: 1.7rem; color: #E8F0FE; }
+.stat-lbl {
+  font-size: .72rem; color: #7B93C4; text-transform: uppercase;
+  letter-spacing: .08em; margin-top: 2px;
+}
